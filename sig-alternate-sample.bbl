@@ -1,0 +1,96 @@
+\begin{thebibliography}{10}
+
+\bibitem{bonacci2014}
+T.~Bonacci, S.~Audebert, Stephane, L.~Camoin, E.~Baudelet, and G.~Bidaut.
+\newblock Identification of new mechanisms of cellular responses to
+  chemotherapy by tracking changes in post-translational modifications by
+  ubiquitin and ubiquitin-like proteins.
+
+\bibitem{browetCommunity}
+A.~Browet, P.-A. Absil, and P.~Van~Dooren.
+\newblock Community detection for hierarchical image segmentation.
+\newblock In {\em Combinatorial Image Analysis}, pages 358--371. Springer,
+  2011.
+
+\bibitem{ilouvain}
+D.~Combe, C.~Largeron, M.~G{\'e}ry, and E.~Egyed-Zsigmond.
+\newblock I-louvain: An attributed graph clustering method.
+\newblock In {\em Advances in Intelligent Data Analysis XIV}, pages 181--192.
+  Springer, 2015.
+
+\bibitem{dudin}
+J.-J. Daudin, F.~Picard, and S.~Robin.
+\newblock A mixture model for random graphs.
+\newblock {\em Statistics and computing}, 18(2):173--183, 2008.
+
+\bibitem{mooreDetect}
+A.~Decelle, F.~Krzakala, C.~Moore, and L.~Zdeborov{\'a}.
+\newblock Asymptotic analysis of the stochastic block model for modular
+  networks and its algorithmic applications.
+\newblock {\em Physical Review E}, 84(6):066106, 2011.
+
+\bibitem{EM}
+A.~P. Dempster, N.~M. Laird, and D.~B. Rubin.
+\newblock Maximum likelihood from incomplete data via the em algorithm.
+\newblock {\em Journal of the royal statistical society. Series B
+  (methodological)}, pages 1--38, 1977.
+
+\bibitem{socialnetwork}
+D.~Greene and P.~Cunningham.
+\newblock Producing a unified graph representation from multiple social network
+  views.
+\newblock In {\em Proceedings of the 5th Annual ACM Web Science Conference},
+  pages 118--121. ACM, 2013.
+
+\bibitem{cancer}
+J.~Guinney, R.~Dienstmann, X.~Wang, A.~de~Reyni{\`e}s, A.~Schlicker,
+  C.~Soneson, L.~Marisa, P.~Roepman, G.~Nyamundanda, P.~Angelino, et~al.
+\newblock The consensus molecular subtypes of colorectal cancer.
+\newblock {\em Nature medicine}, 2015.
+
+\bibitem{hollandSBM}
+P.~W. Holland, K.~B. Laskey, and S.~Leinhardt.
+\newblock Stochastic blockmodels: First steps.
+\newblock {\em Social networks}, 5(2):109--137, 1983.
+
+\bibitem{dan}
+D.~B. Larremore, A.~Clauset, and C.~O. Buckee.
+\newblock A network approach to analyzing highly recombinant malaria parasite
+  genes.
+\newblock {\em PLoS Comput Biol}, 9(10):e1003268, 2013.
+
+\bibitem{jurecommunity}
+J.~Leskovec, K.~J. Lang, and M.~Mahoney.
+\newblock Empirical comparison of algorithms for network community detection.
+\newblock In {\em Proceedings of the 19th international conference on World
+  wide web}, pages 631--640. ACM, 2010.
+
+\bibitem{newmanDetect}
+R.~R. Nadakuditi and M.~E. Newman.
+\newblock Graph spectra and the detectability of community structure in
+  networks.
+\newblock {\em Physical review letters}, 108(18):188701, 2012.
+
+\bibitem{clauset}
+M.~Newman and A.~Clauset.
+\newblock Structure and inference in annotated networks.
+\newblock {\em arXiv preprint arXiv:1507.04001}, 2015.
+
+\bibitem{muchacommunity}
+M.~A. Porter, J.-P. Onnela, and P.~J. Mucha.
+\newblock Communities in networks.
+\newblock {\em Notices of the AMS}, 56(9):1082--1097, 2009.
+
+\bibitem{malikSeg}
+J.~Shi and J.~Malik.
+\newblock Normalized cuts and image segmentation.
+\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on}, 22(8):888--905, 2000.
+
+\bibitem{cesna}
+J.~Yang, J.~McAuley, and J.~Leskovec.
+\newblock Community detection in networks with node attributes.
+\newblock In {\em Data mining (ICDM), 2013 ieee 13th international conference
+  on}, pages 1151--1156. IEEE, 2013.
+
+\end{thebibliography}
