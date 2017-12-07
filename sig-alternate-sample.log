@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  6 DEC 2017 15:37
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  6 DEC 2017 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -520,17 +520,17 @@ Package pdftex.def Info: Microbiome_LinkPred.pdf used on input line 461.
 Underfull \vbox (badness 7344) has occurred while \output is active []
 
 
-<CollabFilteringMicrobiome.png, id=107, 823.075pt x 662.475pt>
-File: CollabFilteringMicrobiome.png Graphic file (type png)
+<CollabFilterMicro.pdf, id=107, 433.62pt x 433.62pt>
+File: CollabFilterMicro.pdf Graphic file (type pdf)
 
-<use CollabFilteringMicrobiome.png>
-Package pdftex.def Info: CollabFilteringMicrobiome.png used on input line 470.
-(pdftex.def)             Requested size: 201.59692pt x 162.2623pt.
- [5 <./MicrobiomeNet.pdf> <./Microbiome_LinkPred.pdf> <./CollabFilteringMicrobi
-ome.png>]
-<ProteinNet.pdf, id=159, 487.8225pt x 258.9675pt>
+<use CollabFilterMicro.pdf>
+Package pdftex.def Info: CollabFilterMicro.pdf used on input line 470.
+(pdftex.def)             Requested size: 201.59692pt x 201.59813pt.
+ [5 <./MicrobiomeNet.pdf> <./Microbiome_LinkPred.pdf> <./CollabFilterMicro.pdf>
+] <ProteinNet.pdf, id=163, 487.8225pt x 258.9675pt>
 File: ProteinNet.pdf Graphic file (type pdf)
- <use ProteinNet.pdf>
+
+<use ProteinNet.pdf>
 Package pdftex.def Info: ProteinNet.pdf used on input line 484.
 (pdftex.def)             Requested size: 252.0pt x 133.77872pt.
 
@@ -538,13 +538,13 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 484--485
  [] 
  []
 
-<EntropyCalc.pdf, id=160, 433.62pt x 433.62pt>
+<EntropyCalc.pdf, id=164, 433.62pt x 433.62pt>
 File: EntropyCalc.pdf Graphic file (type pdf)
  <use EntropyCalc.pdf>
 Package pdftex.def Info: EntropyCalc.pdf used on input line 498.
 (pdftex.def)             Requested size: 226.79846pt x 226.80038pt.
 
-<Protein_LinkPred.pdf, id=161, 412.73978pt x 380.09924pt>
+<Protein_LinkPred.pdf, id=165, 412.73978pt x 380.09924pt>
 File: Protein_LinkPred.pdf Graphic file (type pdf)
 
 <use Protein_LinkPred.pdf>
@@ -556,7 +556,7 @@ in_LinkPred.pdf>]) [7
 ] (./sig-alternate-sample.aux) ) 
 Here is how much of TeX's memory you used:
  4716 strings out of 493633
- 65251 string characters out of 3143378
+ 65211 string characters out of 3143378
  148258 words of memory out of 3000000
  7879 multiletter control sequences out of 15000+200000
  59266 words of font info for 86 fonts, out of 3000000 for 9000
@@ -588,10 +588,10 @@ al/texlive/2011/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texl
 ive/2011/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2011/t
 exmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2011/texmf-dist/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on sig-alternate-sample.pdf (7 pages, 943025 bytes).
+Output written on sig-alternate-sample.pdf (7 pages, 909152 bytes).
 PDF statistics:
- 306 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
+ 310 PDF objects out of 1000 (max. 8388607)
+ 226 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
