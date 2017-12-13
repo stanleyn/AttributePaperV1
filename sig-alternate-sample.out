@@ -8,13 +8,14 @@
 \BOOKMARK [2][-]{subsection.2.2}{Attribute Likelihood}{section.2}% 8
 \BOOKMARK [2][-]{subsection.2.3}{Adjacency Matrix Likelihood}{section.2}% 9
 \BOOKMARK [2][-]{subsection.2.4}{Inference}{section.2}% 10
-\BOOKMARK [1][-]{section.3}{Synthetic Data Results}{}% 11
-\BOOKMARK [1][-]{section.4}{Using the fitted attributed SBM for link prediction and collaborative filtering}{}% 12
-\BOOKMARK [2][-]{subsection.4.1}{Link Prediction Experiments}{section.4}% 13
-\BOOKMARK [2][-]{subsection.4.2}{Collaborative Filtering Experiments}{section.4}% 14
-\BOOKMARK [1][-]{section.5}{Applications in Biological Networks}{}% 15
-\BOOKMARK [2][-]{subsection.5.1}{Microbiome Subject Similarity Results}{section.5}% 16
-\BOOKMARK [2][-]{subsection.5.2}{Protein Interaction Network Results}{section.5}% 17
-\BOOKMARK [1][-]{section.6}{Discussion}{}% 18
-\BOOKMARK [1][-]{section.7}{Discussion}{}% 19
-\BOOKMARK [1][-]{section.8}{References}{}% 20
+\BOOKMARK [2][-]{subsection.2.5}{Initialization}{section.2}% 11
+\BOOKMARK [1][-]{section.3}{Synthetic Data Results}{}% 12
+\BOOKMARK [1][-]{section.4}{Using the fitted attributed SBM for link prediction and collaborative filtering}{}% 13
+\BOOKMARK [2][-]{subsection.4.1}{Link Prediction Experiments}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.2}{Collaborative Filtering Experiments}{section.4}% 15
+\BOOKMARK [1][-]{section.5}{Applications in Biological Networks}{}% 16
+\BOOKMARK [2][-]{subsection.5.1}{Microbiome Subject Similarity Results}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.2}{Protein Interaction Network Results}{section.5}% 18
+\BOOKMARK [1][-]{section.6}{Discussion}{}% 19
+\BOOKMARK [1][-]{section.7}{Discussion}{}% 20
+\BOOKMARK [1][-]{section.8}{References}{}% 21
