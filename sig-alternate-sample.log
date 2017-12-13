@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  7 DEC 2017 08:47
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  13 DEC 2017 16:28
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **sig-alternate-sample.tex
 (./sig-alternate-sample.tex
@@ -282,69 +283,150 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks39
 \@floatcapt=\box31
 )
-(./sig-alternate-sample.aux)
-\openout1 = `sig-alternate-sample.aux'.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2011/04/17 v6.82g Hypertext links for LaTeX
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
 
-(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count113
-\scratchdimen=\dimen130
-\scratchbox=\box32
-\nofMPsegments=\count114
-\nofMParguments=\count115
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count116
-\MPscratchDim=\dimen131
-\MPnumerator=\count117
-\makeMPintoPDFobject=\count118
-\everyMPtoPDFconversion=\toks41
-) (/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
-
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
-
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
-))
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
-
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
-
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-)))
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/04/04 v1.12 Provides string conversions (HO)
+Package: bigintcalc 2011/01/30 v1.2 Expandable big integer calculations (HO)
+Package: bitset 2011/01/30 v1.1 Data type bit set (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provides unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/01/30 v1.0 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/04/23 v1.7 Hooks at very end of document (HO)
+Package atveryend Info: \enddocument detected (standard).
+Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
+Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+)
+\@linkdim=\dimen130
+\Hy@linkcounter=\count113
+\Hy@pagecounter=\count114
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2011/04/17 v6.82g Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count115
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 3905.
+Package hyperref Info: Hyper figures OFF on input line 4026.
+Package hyperref Info: Link nesting OFF on input line 4031.
+Package hyperref Info: Hyper index ON on input line 4034.
+Package hyperref Info: Plain pages OFF on input line 4041.
+Package hyperref Info: Backreferencing OFF on input line 4046.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4264.
+\c@Hy@tempcnt=\count116
+LaTeX Info: Redefining \url on input line 4617.
+\Fld@menulength=\count117
+\Field@Width=\dimen131
+\Fld@charsize=\dimen132
+Package hyperref Info: Hyper figures OFF on input line 5701.
+Package hyperref Info: Link nesting OFF on input line 5706.
+Package hyperref Info: Hyper index ON on input line 5709.
+Package hyperref Info: backreferencing OFF on input line 5716.
+Package hyperref Info: Link coloring ON on input line 5719.
+Package hyperref Info: Link coloring with OCG OFF on input line 5726.
+Package hyperref Info: PDF/A mode OFF on input line 5731.
+LaTeX Info: Redefining \ref on input line 5771.
+LaTeX Info: Redefining \pageref on input line 5775.
+
+
+Package hyperref Warning: Option `pdfpagelabels' is turned off
+(hyperref)                because \thepage is undefined.
+
+\c@Item=\count118
+\c@Hfootnote=\count119
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2011/04/17 v6.82g Hyperref driver for pdfTeX
+\Fld@listcount=\count120
+\c@bookmark@seq@number=\count121
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip46
+)
+(./sig-alternate-sample.aux)
+\openout1 = `sig-alternate-sample.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+
+(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count122
+\scratchdimen=\dimen133
+\scratchbox=\box32
+\nofMPsegments=\count123
+\nofMParguments=\count124
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count125
+\MPscratchDim=\dimen134
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
+\everyMPtoPDFconversion=\toks41
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+)
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
@@ -356,60 +438,76 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 185.
+\AtBeginShipoutBox=\box33
+
+
+Package hyperref Warning: Height of page (\paperheight) is invalid (0.0pt),
+(hyperref)                using 11in.
+
+Package hyperref Info: Link coloring ON on input line 58.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count128
+)
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
+
+(./sig-alternate-sample.out) (./sig-alternate-sample.out)
+\@outlinefile=\write4
+\openout4 = `sig-alternate-sample.out'.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 187.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 185.
+LaTeX Font Info:    Try loading font information for U+msb on input line 187.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 185.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 187.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 
-! Package caption Error: No float type 'copyrightbox' defined.
+./sig-alternate-sample.tex:187: Package caption Error: No float type 'copyright
+box' defined.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \maketitle
-                
-? 
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 185.
+l.187 \begin
+            {abstract}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 187.
 (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 185.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 187.
 
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 185.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 187.
 
-Overfull \hbox (7.50426pt too wide) in paragraph at lines 191--195
-\T1/aer/m/n/9 ncomms5344$ $http : / / pubs . acs . org / doi / full / 10 . 1021
- / pr401258d$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--195
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (1.52824pt too wide) in paragraph at lines 257--258
+Overfull \hbox (1.52824pt too wide) in paragraph at lines 249--250
 []\T1/aer/m/n/9 Further mo-ti-va-tion for the in-cor-po-ra-tion of node at-trib
 utes
  []
@@ -418,191 +516,316 @@ utes
 
 
 ]
-Overfull \hbox (15.87444pt too wide) in paragraph at lines 271--272
+Overfull \hbox (15.87444pt too wide) in paragraph at lines 263--264
 []\T1/aer/m/n/9 We de-vel-oped a prob-a-bilis-tic model for node-to-community
  []
 
-<GraphModel.pdf, id=14, 311.1625pt x 125.46875pt>
+<GraphModel.pdf, id=131, 311.1625pt x 125.46875pt>
 File: GraphModel.pdf Graphic file (type pdf)
  <use GraphModel.pdf>
-Package pdftex.def Info: GraphModel.pdf used on input line 284.
+Package pdftex.def Info: GraphModel.pdf used on input line 276.
 (pdftex.def)             Requested size: 155.58087pt x 62.7342pt.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 286.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 278.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 286.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 278.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 286.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 278.
 
-Overfull \hbox (3.10004pt too wide) in paragraph at lines 313--314
+Overfull \hbox (3.10004pt too wide) in paragraph at lines 305--306
 \T1/aer/m/n/9 par-tic-u-lar com-mu-nity $\OML/cmm/m/it/9 i$ []\T1/aer/m/n/9 has
  an as-so-ci-ated[] $\OML/cmm/m/it/9 p$\T1/aer/m/n/9 -dimensional mean
  []
 
 
-Overfull \hbox (5.00346pt too wide) in paragraph at lines 313--314
+Overfull \hbox (5.00346pt too wide) in paragraph at lines 305--306
 \T1/aer/m/n/9 we de-fine the pa-ram-e-ter $[] \OT1/cmr/m/n/9 = \OMS/cmsy/m/n/9 
 f[][]\OML/cmm/m/it/9 ; [][]; [] [][]; [][]; [][]; [] [][]\OMS/cmsy/m/n/9 g$\T1/
 aer/m/n/9 .
  []
 
-[2 <./GraphModel.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.309 \end{equation}
+                     [2 <./GraphModel.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
 
  []
 
-<SyntheticFig.pdf, id=67, 462.72874pt x 262.9825pt>
+<SyntheticFig.pdf, id=195, 462.72874pt x 262.9825pt>
 File: SyntheticFig.pdf Graphic file (type pdf)
  <use SyntheticFig.pdf>
-Package pdftex.def Info: SyntheticFig.pdf used on input line 396.
+Package pdftex.def Info: SyntheticFig.pdf used on input line 388.
 (pdftex.def)             Requested size: 252.0pt x 143.22028pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 396--397
+Overfull \hbox (12.0pt too wide) in paragraph at lines 388--389
  [] 
  []
 
 
-Overfull \hbox (2.22711pt too wide) in paragraph at lines 407--407
+Underfull \hbox (badness 1253) in paragraph at lines 389--389
+\T1/aer/m/n/9 with the at-tributed SBM, we quan-ti-fied the par-ti-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
+\T1/aer/m/n/9 re-sults $[]\OT1/cmr/m/n/9 (\OT1/cmr/bx/n/9 z\OML/cmm/m/it/9 ; \O
+MS/cmsy/m/n/9 f\OT1/cmr/bx/n/9 z[]\OML/cmm/m/it/9 ; \OT1/cmr/bx/n/9 z[]\OML/cmm
+/m/it/9 ; \OT1/cmr/bx/n/9 z[]\OMS/cmsy/m/n/9 g\OT1/cmr/m/n/9 ) =
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (24.51086pt too wide) in paragraph at lines 393--394
+[]\OT1/cmr/m/n/9 (\OT1/cmr/bx/n/9 z\OML/cmm/m/it/9 ; \OMS/cmsy/m/n/9 f\OT1/cmr/
+bx/n/9 z[]\OML/cmm/m/it/9 ; \OT1/cmr/bx/n/9 z[]\OML/cmm/m/it/9 ; \OT1/cmr/bx/n/
+9 z[]\OMS/cmsy/m/n/9 g\OT1/cmr/m/n/9 ) = \OMS/cmsy/m/n/9 f\OT1/cmr/m/n/9 0\OML/
+cmm/m/it/9 :\OT1/cmr/m/n/9 65\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 0\OML/cmm/m/it/9 
+:\OT1/cmr/m/n/9 68\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 0\OML/cmm/m/it/9 :\OT1/cmr/m
+/n/9 83\OMS/cmsy/m/n/9 g$\T1/aer/m/n/9 .
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.394 
+       [3] <DetectExp.pdf, id=214, 433.62pt x 361.35pt>
+File: DetectExp.pdf Graphic file (type pdf)
+ <use DetectExp.pdf>
+Package pdftex.def Info: DetectExp.pdf used on input line 399.
+(pdftex.def)             Requested size: 252.0pt x 210.00218pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 399--400
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (2.22711pt too wide) in paragraph at lines 408--408
 []\secfnt USING THE FIT-TED AT-TRIBUTED SBM
  []
 
 
-Overfull \hbox (3.45126pt too wide) in paragraph at lines 407--407
+Overfull \hbox (3.45126pt too wide) in paragraph at lines 408--408
 \secfnt FOR LINK PRE-DIC-TION AND COL-LAB-
  []
 
-[3]
-! Undefined control sequence.
-l.414 ...r}: $\text{Score}(m,n)=\sum_{c \in \Gamme
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.412 
+       [4 <./SyntheticFig.pdf> <./DetectExp.pdf>]
+./sig-alternate-sample.tex:415: Undefined control sequence.
+l.415 ...r}: $\text{Score}(m,n)=\sum_{c \in \Gamme
                                                   (m) \cap \Gamma(n)}\frac{1...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-? 
-! Extra }, or forgotten $.
-l.416 ...ferential Attachment}: $\text{Score}(m,n}
+./sig-alternate-sample.tex:417: Extra }, or forgotten $.
+l.417 ...ferential Attachment}: $\text{Score}(m,n}
                                                   =|\Gamma(m)|\times |\Gamma...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
-? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--417
+Underfull \hbox (badness 10000) in paragraph at lines 417--418
 
  []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.423 
-      
-? 
 
-Overfull \hbox (42.26076pt too wide) in paragraph at lines 422--423
+Overfull \hbox (42.26076pt too wide) in paragraph at lines 423--424
 []\T1/aer/bx/n/9 Weighted Neigh-bor-hood Avg\T1/aer/m/n/9 : $[] \OT1/cmr/m/n/9 
 = [] [][] \OML/cmm/m/it/9 s[]\OT1/cmr/bx/n/9 x[]$ 
  []
 
-[4 <./SyntheticFig.pdf>] <MicrobiomeNet.pdf, id=105, 556.0775pt x 302.12875pt>
-File: MicrobiomeNet.pdf Graphic file (type pdf)
 
-<use MicrobiomeNet.pdf>
-Package pdftex.def Info: MicrobiomeNet.pdf used on input line 452.
-(pdftex.def)             Requested size: 252.0pt x 136.92018pt.
+Overfull \hbox (5.96469pt too wide) in paragraph at lines 446--448
+\T1/aer/m/n/9 tracted a sub-set of the sub-jects from East-ern Eu-rope,Southern
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 452--453
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.451 
+       [5] <MicrobiomeNets_Dec12.pdf, id=259, 576.1525pt x 269.005pt>
+File: MicrobiomeNets_Dec12.pdf Graphic file (type pdf)
+
+<use MicrobiomeNets_Dec12.pdf>
+Package pdftex.def Info: MicrobiomeNets_Dec12.pdf used on input line 456.
+(pdftex.def)             Requested size: 252.0pt x 117.66066pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 456--457
  [] 
  []
 
-<Microbiome_LinkPred.pdf, id=106, 417.66638pt x 369.03952pt>
-File: Microbiome_LinkPred.pdf Graphic file (type pdf)
+<ROC_Microbiome.pdf, id=260, 433.62pt x 433.62pt>
+File: ROC_Microbiome.pdf Graphic file (type pdf)
+ <use ROC_Microbiome.pdf>
+Package pdftex.def Info: ROC_Microbiome.pdf used on input line 465.
+(pdftex.def)             Requested size: 201.59692pt x 201.59813pt.
 
-<use Microbiome_LinkPred.pdf>
-Package pdftex.def Info: Microbiome_LinkPred.pdf used on input line 461.
-(pdftex.def)             Requested size: 201.59692pt x 178.12802pt.
-
-Underfull \vbox (badness 7344) has occurred while \output is active []
-
-
-<CollabFilterMicro.pdf, id=107, 433.62pt x 433.62pt>
+<CollabFilterMicro.pdf, id=261, 433.62pt x 433.62pt>
 File: CollabFilterMicro.pdf Graphic file (type pdf)
 
 <use CollabFilterMicro.pdf>
-Package pdftex.def Info: CollabFilterMicro.pdf used on input line 470.
-(pdftex.def)             Requested size: 201.59692pt x 201.59813pt.
- [5 <./MicrobiomeNet.pdf> <./Microbiome_LinkPred.pdf> <./CollabFilterMicro.pdf>
-] <ProteinNet.pdf, id=163, 487.8225pt x 258.9675pt>
-File: ProteinNet.pdf Graphic file (type pdf)
+Package pdftex.def Info: CollabFilterMicro.pdf used on input line 474.
+(pdftex.def)             Requested size: 151.20154pt x 151.20026pt.
 
-<use ProteinNet.pdf>
-Package pdftex.def Info: ProteinNet.pdf used on input line 484.
-(pdftex.def)             Requested size: 252.0pt x 133.77872pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 484--485
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 3646) has occurred while \output is active []
+
+
+
+LaTeX Warning: Citation `bonacci2014' on page \thepage  undefined on input line
+ 484.
+
+<ProteinNet_Dec12.pdf, id=262, 740.7675pt x 342.27875pt>
+File: ProteinNet_Dec12.pdf Graphic file (type pdf)
+
+<use ProteinNet_Dec12.pdf>
+Package pdftex.def Info: ProteinNet_Dec12.pdf used on input line 488.
+(pdftex.def)             Requested size: 252.0pt x 116.4359pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 488--489
  [] 
  []
 
-<EntropyCalc.pdf, id=164, 433.62pt x 433.62pt>
-File: EntropyCalc.pdf Graphic file (type pdf)
- <use EntropyCalc.pdf>
-Package pdftex.def Info: EntropyCalc.pdf used on input line 498.
-(pdftex.def)             Requested size: 226.79846pt x 226.80038pt.
 
-<Protein_LinkPred.pdf, id=165, 412.73978pt x 380.09924pt>
-File: Protein_LinkPred.pdf Graphic file (type pdf)
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<use Protein_LinkPred.pdf>
-Package pdftex.def Info: Protein_LinkPred.pdf used on input line 508.
-(pdftex.def)             Requested size: 201.59692pt x 185.65286pt.
- <CollabSBM.pdf, id=166, 433.62pt x 433.62pt>
-File: CollabSBM.pdf Graphic file (type pdf)
 
-<use CollabSBM.pdf>
-Package pdftex.def Info: CollabSBM.pdf used on input line 516.
+LaTeX Warning: Citation `bonacci2014' on page \thepage  undefined on input line
+ 493.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.495 {\bf C
+            onstructing Node Attributes:} [6 <./MicrobiomeNets_Dec12.pdf> <./RO
+C_Microbiome.pdf> <./CollabFilterMicro.pdf>]
+<EntropyCalc_6Classleft_2classright.pdf, id=328, 578.16pt x 361.35pt>
+File: EntropyCalc_6Classleft_2classright.pdf Graphic file (type pdf)
+
+<use EntropyCalc_6Classleft_2classright.pdf>
+Package pdftex.def Info: EntropyCalc_6Classleft_2classright.pdf used on input l
+ine 502.
+(pdftex.def)             Requested size: 226.79846pt x 141.74748pt.
+
+<ROC_Protein.pdf, id=329, 433.62pt x 433.62pt>
+File: ROC_Protein.pdf Graphic file (type pdf)
+ <use ROC_Protein.pdf>
+Package pdftex.def Info: ROC_Protein.pdf used on input line 512.
 (pdftex.def)             Requested size: 201.59692pt x 201.59813pt.
+
+<CollabProtein.pdf, id=330, 433.62pt x 433.62pt>
+File: CollabProtein.pdf Graphic file (type pdf)
+ <use CollabProtein.pdf>
+Package pdftex.def Info: CollabProtein.pdf used on input line 520.
+(pdftex.def)             Requested size: 151.20154pt x 151.20026pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \vbox (81.15132pt too high) has occurred while \output is active []
+(./sig-alternate-sample.bblpdfTeX warning (ext4): destination with the same ide
+ntifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.20 
+      [7 <./ProteinNet_Dec12.pdf> <./EntropyCalc_6Classleft_2classright.pdf> <.
+/ROC_Protein.pdf> <./CollabProtein.pdf>])
 
+./sig-alternate-sample.tex:600: LaTeX Error: \begin{abstract} on input line 187
+ ended by \end{document}.
 
-[6 <./ProteinNet.pdf> <./EntropyCalc.pdf> <./Protein_LinkPred.pdf> <./CollabSBM
-.pdf>] (./sig-alternate-sample.bbl) [7] (./sig-alternate-sample.aux) ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.600 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 600.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.600 \end{document}
+                     [8
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 600.
+ (./sig-alternate-sample.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 600.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 600.
+Package rerunfilecheck Info: File `sig-alternate-sample.out' has not changed.
+(rerunfilecheck)             Checksum: D9E2C7C47F17E19C230483B10E5FD135;1359.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 600.
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 187 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 4722 strings out of 493633
- 65305 string characters out of 3143378
- 148258 words of memory out of 3000000
- 7884 multiletter control sequences out of 15000+200000
- 59266 words of font info for 86 fonts, out of 3000000 for 9000
+ 8073 strings out of 493633
+ 116922 string characters out of 3143378
+ 235119 words of memory out of 3000000
+ 11151 multiletter control sequences out of 15000+200000
+ 59916 words of font info for 88 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 53i,22n,92p,1602b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/loc
-al/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2011
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2011/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2011/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2011/texm
-f-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2011/t
-exmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/201
-1/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2011/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2011/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2011/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2011/texm
-f-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/local/texlive/2011/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2011/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2011/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2011/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2011/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2011/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2011/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2011/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2011/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1
-/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2011/texmf-dist/fonts/t
-ype1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/ur
-w/helvetic/uhvr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times
-/utmb8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmr8a.pf
-b></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sig-alternate-sample.pdf (7 pages, 916700 bytes).
+ 53i,22n,92p,1783b,551s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc
+}</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></
+usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></us
+r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><
+/usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pf
+b></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb>
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></us
+r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></us
+r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb>
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></u
+sr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
+local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/
+texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/te
+xlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texl
+ive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
+e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/
+2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/20
+11/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texliv
+e/2011/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2011/
+texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2011/texmf-d
+ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/
+type1/urw/times/utmr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/
+times/utmri8a.pfb>
+Output written on sig-alternate-sample.pdf (8 pages, 825552 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 231 compressed objects within 3 object streams
- 0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 497 PDF objects out of 1000 (max. 8388607)
+ 404 compressed objects within 5 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 211 words of extra memory for PDF output out of 10000 (max. 10000000)
 

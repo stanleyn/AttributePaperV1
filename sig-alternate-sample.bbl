@@ -1,10 +1,10 @@
 \begin{thebibliography}{10}
 
-\bibitem{bonacci2014}
-T.~Bonacci, S.~Audebert, Stephane, L.~Camoin, E.~Baudelet, and G.~Bidaut.
-\newblock Identification of new mechanisms of cellular responses to
-  chemotherapy by tracking changes in post-translational modifications by
-  ubiquitin and ubiquitin-like proteins.
+\bibitem{agha}
+N.~Aghaeepour, E.~A. Ganio, D.~Mcilwain, A.~S. Tsai, M.~Tingle, S.~Van~Gassen,
+  D.~K. Gaudilliere, Q.~Baca, L.~McNeil, R.~Okada, et~al.
+\newblock An immune clock of human pregnancy.
+\newblock {\em Science immunology}, 2(15):eaan2946, 2017.
 
 \bibitem{browetCommunity}
 A.~Browet, P.-A. Absil, and P.~Van~Dooren.
@@ -42,16 +42,15 @@ D.~Greene and P.~Cunningham.
 \newblock In {\em Proceedings of the 5th Annual ACM Web Science Conference},
   pages 118--121. ACM, 2013.
 
-\bibitem{cancer}
-J.~Guinney, R.~Dienstmann, X.~Wang, A.~de~Reyni{\`e}s, A.~Schlicker,
-  C.~Soneson, L.~Marisa, P.~Roepman, G.~Nyamundanda, P.~Angelino, et~al.
-\newblock The consensus molecular subtypes of colorectal cancer.
-\newblock {\em Nature medicine}, 2015.
-
 \bibitem{hollandSBM}
 P.~W. Holland, K.~B. Laskey, and S.~Leinhardt.
 \newblock Stochastic blockmodels: First steps.
 \newblock {\em Social networks}, 5(2):109--137, 1983.
+
+\bibitem{microbiomedata}
+L.~Lahti, J.~Saloj{\"a}rvi, A.~Salonen, M.~Scheffer, and W.~M. De~Vos.
+\newblock Tipping elements in the human intestinal ecosystem.
+\newblock {\em Nature communications}, 5, 2014.
 
 \bibitem{dan}
 D.~B. Larremore, A.~Clauset, and C.~O. Buckee.
