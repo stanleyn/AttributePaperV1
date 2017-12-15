@@ -243,12 +243,15 @@ Stochastic block models (SBMs) are probabilistic models for community structure 
 
 \section{Introduction}
 \subsection{Network data and node attributes}
-Uncovering patterns in network data is a common pursuit across a range of fields, such as in biology \cite{dan}, medicine \cite{agha} and computational social science \cite{socialnetwork}. A powerful way to analyze mesoscale structural organization within a network is with community structure \cite{muchacommunity,jurecommunity}. In this pursuit, the objective is to identify cohesive groups of nodes with a high density of within-group connections and few between-group connections. Numerous approaches exist to accomplish this task \cite{muchacommunity,jurecommunity}, but typically only the adjacency matrix conveying the wiring of the graph is taken into account. In certain applications, each node in a network is equipped with additional information (or particular attributes) that was not implicitly taken into account in the construction of the network. For example, one could consider a collection of attributes measured for individuals in a social network (i.e., age, income, level of education). In this work, we seek to incorporate these attributes in the community detection task, such that communities are able to effectively combine both sources of information to understand the organization of components in a system.
-
-\vskip2ex
-\indent Further motivation for the incorporation of node attributes in community detection is also inspired by detectability of communities, as well as possible impact in the image analysis community. The detectability limit in networks is a theoretical notion of the relationship between the number of within-community connections to the number of between-community connections that allows for algorithms to accurately detect community structure \cite{newmanDetect,mooreDetect}. In circumstances where the number of within-community connections is sparse, we propose that the incorporation of attribute information will make communities easier to detect. Further, graph-based image segmentation has shown promise \cite{malikSeg,browetCommunity}, however the probabilistic notion of communities in this context is not well explored. 
+Uncovering patterns in network data is a common pursuit across a range of fields, such as in biology \cite{dan}, medicine \cite{agha,cancer} and computational social science \cite{socialnetwork}. A powerful way to analyze mesoscale structural organization within a network is with community structure \cite{muchacommunity,jurecommunity,shaiCC}. In this pursuit, the objective is to identify cohesive groups of nodes with a high density of within-group connections and few between-group connections. Numerous approaches exist to accomplish this task \cite{muchacommunity,jurecommunity}, but typically only the adjacency matrix conveying the wiring of the graph is taken into account. In certain applications, each node in a network is equipped with additional information (or particular attributes) that was not implicitly taken into account in the construction of the network. For example, one could consider a collection of attributes measured for individuals in a social network (i.e., age, interest, level of education). The interplay between the connectivity-based (or structural) community organization of the network and attribute information has gained attention, as it is often unclear whether it is valid to assume that a \emph{structural} community should necessarily correlate with an attribute-based \emph{functional} community \cite{hric,peel2017ground,jureGroundTruth}. While these studies suggest that extreme caution should be taken in assuming a correlation between structural and functional communities, we limit our focus in this work to the assumption that a node's connectivity and attribute patterns can be jointly modeled based on its community assignment. In other words, we sought to develop an approach to assign node to communities based jointly on both sources of information, such that a community is defined as a group of nodes with similar connectivity and attribute patterns. Moreover, our objectives are two-fold.  First, we seek to develop a probabilistic approach to jointly model connectivity and attributes. Second, we wish to ensure that our model can handle multiple, continuous attributes.  
 
 \subsection{Related work}
+Recently, there have been numerous efforts to incorporate attribute information into the community detection problem \cite{cesna,clauset,ilouvain,hric,peel2017ground}. First, we focus on an effective quality function based method, known as I-louvain \cite{ilouvain}. This method approaches the problem as an extension to the Louvain algorithm, which is the state-of-the-art scalable quality function modularity-based community detection method \cite{blondel}. The traditional modularity-based approach to community detection defines a null model for community structure under the assumption that there is not substantial structural organization in the network and seeks to identify a partition maximally different from this model through optimizing a quality function (modularity). The I-louvain method modifies the standard modularity quality function as what they call 'inertia-based modularity'. This quality function incorporates the euclidean distance between nodes based on their attributes. This work demonstrates that incorporating connectivity and attributes allows for a partition of nodes to communities that aligns with ground truth better than the results obtained based on connectivity or attributes in isolation.
+
+Alternatively, a variety of methods \cite{clauset,hric,peel2017ground,cesna} are probabilistic in nature  and seek to learn a probabilistic model to describe how edges and attributes are generated using some aspect of community structure. Most similar to our work is \cite{cesna}, which seeks to learn a set of propensities or affiliations for each node across all possible communities, such that two nodes with similar propensities towards communities should have more in common in terms of connectivity and attributes. In this model, each node has a vector multiple binary attributes. The affiliation model is useful and flexible because it does not enforce a hard partitioning of nodes into communities, which is useful in social network applications. In this inference problem, the connectivity and attribute information are used to infer a node's affiliations to communities and then models the probability of an edge between two nodes as a function of the similarity in their community affiliation propensities. 
+
+In contrast to the affiliation model, the stochastic block model \cite{hollandSBM} (at least the more standard variants of it), seeks to determine a hard partition for each nodes across communities and models edges between a pair of nodes according to their community assignments. The partition of nodes to communities through a stochastic block model framework is accomplished through maximum likelihood optimization. The adaptation of the stochastic block model was first explored by Clauset \emph{et al.}, \cite{clauset}, who adapts the stochastic block model to handle a single attribute with the assumption that metadata and communities are correlated. Next Hric \emph{et al.,}, developed an attributed SBM \cite{hric} from a multilayer network perspective, with one layer modeling relational information between attributes and the other modeling connectivity. The authors then seek to assign nodes to communities  maximizing the likelihood of the observed data in each layer. Finally, work of Peel \emph{et al.} made important contributions in 1) establishing a statistical test to determine whether metadata actually correlates with community structure and 2) developing an SBM with flexibility in how strongly to couple metadata and community membership in the stochastic block model inference problem \cite{peel2017ground}. 
+
 The incorporation of node attributes in network analysis tasks is not well explored, particularly in the context of probabilistic network models. In a modularity based approach, the authors of \cite{ilouvain} modified the classical modularity quality function to incorporate node attribute information. Two probabilistic network and attribute models have also been proposed by \cite{cesna,clauset}. In \cite{cesna}, the authors developed a generative model for attributed network data based on node affiliation. However, in this approach only binary attribute data are considered. In \cite{clauset}, the authors developed a probabilistic framework for incorporating metadata or attributes in community detection, however, the model takes \rk{only a single metadata 
 value for each node into account}. We seek to extend these existing approaches to reflect continuous attribute data and particularly multidimensional attribute data drawn from a multivariate Gaussian distribution. 
 
@@ -321,13 +324,13 @@ For the adjacency matrix, ${\bf A}$ and the $K \times K$ matrix of stochastic bl
 \end{equation}
 
 \subsection{Inference}
-To use EM to maximize the likelihood of the data, we break the process into the E-step and M-Step.
+To use EM to maximize the likelihood of the data, we break the process into the E-step and M-Step, and perform this step sequence iteratively until the estimates converge.
 
-\rk{\textbf{E-Step.}} During the E-step, we use the current value of learned model parameters, ${\boldsymbol \theta}$ and ${\boldsymbol \Psi}$ to compute the posterior, given in Eq.~\eqref{post}. The posterior, or expectation ${\mathbb E}(z_{ic})$, of node $i$ belonging to community $c$, is given by
+\rk{\textbf{E-Step.}} During the E-step, we use the current value of learned model parameters, ${\boldsymbol \theta}$ and ${\boldsymbol \Psi}$ to compute the posterior, given in Eq.~\eqref{post}. The posterior at each step,  $\gamma(z_{ic})$, of node $i$ belonging to community $c$, is given by
 
 \begin{equation}
 \begin{split}
-\mathbb{E}({z_{ic}})& =p(z_{ic}=1\mid {\bf x}_{i}, {\bf a}_{i}) \\
+\gamma({z_{ic}})& =p(z_{ic}=1\mid {\bf x}_{i}, {\bf a}_{i}) \\
 & =\frac{p({\bf x}_{i},{\bf a}_{i},z_{ic})}{p({\bf x_{i},a_{i}})}\\
 &=\frac{p({\bf x_{i}} \mid z_{ic})p({\bf a}_{i}\mid z_{ic})\pi_{c}}{\sum_{c=1}^{K}p({\bf x_{i}} \mid z_{ic})p({\bf a}_{i}\mid z_{ic})\pi_{c}}\enspace.
 \end{split}
@@ -339,19 +342,19 @@ To use EM to maximize the likelihood of the data, we break the process into the 
 Since, the attributes \rk{follow a Gaussian mixture model}, it can be shown that the update for the mean vector describing community $c$, ${\boldsymbol \mu}_{c}$, can be computed as
 
 \begin{equation}
-{\boldsymbol \mu}_{c}=\frac{\sum_{i=1}^{N}\mathbb{E}(z_{ic}){\bf x}_{i}}{\sum_{i=1}^{N}\mathbb{E}(z_{ic})}\enspace.
+{\boldsymbol \mu}_{c}=\frac{\sum_{i=1}^{N}\gamma(z_{ic}){\bf x}_{i}}{\sum_{i=1}^{N}\gamma(z_{ic})}\enspace.
 \end{equation}
 
 Similarly, the update for the covariance matrix describing a community, ${\boldsymbol \Sigma}_{c}$,  is computed as 
 
 \begin{equation}
-{\boldsymbol \Sigma}_{c}=\frac{\sum_{i=1}^{N}\mathbb{E}(ic)({\bf x}_{i}-{\boldsymbol \mu}_{c})({\bf x}_{i}-{\boldsymbol \mu}_{c})^{T}}{\sum_{i=1}^{N}\mathbb{E}(ic)}\enspace.
+{\boldsymbol \Sigma}_{c}=\frac{\sum_{i=1}^{N}\gamma(z_{ic})({\bf x}_{i}-{\boldsymbol \mu}_{c})({\bf x}_{i}-{\boldsymbol \mu}_{c})^{T}}{\sum_{i=1}^{N}\gamma(z_{ic})}\enspace.
 \end{equation}
 
 To update the parameters of ${\boldsymbol \theta}$, we follow the method in \cite{dudin} and update the probability of an edge existing between community $q$ and $l$, given by ${\boldsymbol \theta}_{ql}$ as,
 
 \begin{equation}
-{\boldsymbol \theta}_{ql}=\frac{\sum_{i\ne j} \mathbb{E}(z_{iq})\mathbb{E}(z_{jl})x_{ij}}{\sum_{i \ne j}\mathbb{E}(z_{iq})\mathbb{E}(z_{jl})}
+{\boldsymbol \theta}_{ql}=\frac{\sum_{i\ne j} \gamma(z_{iq})\gamma(z_{jl})x_{ij}}{\sum_{i \ne j}\gamma(z_{iq})\gamma(z_{jl})}
 \end{equation}
 
 We continue the process \rk{of iterating between} the E-step and M-step until the change in the data log-likelihood, ${\mathcal L}$, is \rk{below a predefined tolerance threshold}.
@@ -428,12 +431,13 @@ Conversely, the collaborative filtering problem seeks to predict a node's attrib
 We show results for these two tasks in two different biological network examples in section X. In particular, the experiments were designed in the following ways.
 
 \subsection{Link Prediction Experiments}
- For our link prediction (figures x and y), we first choose 25 pairs of nodes that have an edge in the network and 25 pairs that do not. We then test each of these 50 edges in a leave one out manner. That is, for each of the 50 edges, we fit the attributed SBM to the network with the two stubs of the edge left out. We then use the nearest neighbor in attribute space of each stub  as the the input to each of the 3 baseline community detection methods (Jaccard, Adamic Adar, and Preferential Attatchment). To use our attributed SBM in this link prediction task, we also consider the most commonly observed community among the 3 nearest neighbors for the stubs of the edge of interest. Again, using the nearest neighbors (denote $n$ and $m$ of the stubs, then we define the link prediction score for the edge as $\theta_{z_{n},z_{m}}$, or the probability that an edge exists between nodes $n$ and $m$ according to the fitted model. 
+For our link prediction (figures x and y), we performed a link prediction task by sampling pairs of nodes and utilizing the complementary source of attribute information. We sampled 10 different sets of 50 pairs of nodes. In each sample, 25 of the node pairs were those having an edge in the original network and 25 were pairs with no edge. For each of the 50 edges in each sample, we sought to predict whether an edge existed between the corresponding node pair in a leave one out manner. To do this, for each edge we fit the attributed SBM to the network with the pair of nodes (stubs) associated with the edge removed. We then use the nearest neighbor in attribute space of each stub as the the input to each of the 3 baseline community detection methods (Jaccard, Adamic Adar, and Preferential Attatchment). To use our attributed SBM in this link prediction task, we also consider the most commonly observed community among the 3 nearest neighbors for the stubs of the edge of interest. Again, using the nearest neighbors, which we denote by $n$ and $m$ of the stubs, then we define the link prediction score for the edge as $\theta_{z_{n},z_{m}}$, or the probability that an edge exists between nodes $n$ and $m$ according to the fitted model. After generating 10 samples of 50 edge pairs, this results in 500 total edge scores. Since we know the ground truth of whether or not these edges actually exist from the original network, we can construct an ROC curve for each method. From these curves we can plot area under the curve (AUC) to quantify the quality of the link prediction result. Two link prediction results are reported in figures 5 and 9 for the microbiome and protein network examples. 
 
 \subsection{Collaborative Filtering Experiments}
-In collaborative filtering experiments, the objective is to predict the vector of attributes for each node. In our experiments, we used leave-one-out validation to predict the attribute vector for each node. That is, for each node in the network, we created a single node test set. The training set, was then the rest of the network with the node to predict removed. For this single test set node, we identified neighbors it connects to in only connectivity space within the training set. For standard collaborative filtering approaches (Neighborhood average and weighted neighborhood average), the predicted attribute for the test set node is then the specified averaging of the neighbors. To use our model for this task, we first fit the attributed SBM model to the training set. Similar to the standard link prediction approaches, we identify the nearest neighbors for our test node in connectivity space within the training set. We then predict the community membership of our test node to be the most-frequently observed community among its neighbors. Using this community assignment, $c$, we then predict the attribute vector for our test node to be ${\bf \mu}_{c}$, or the mean vector that was learned to describe community $c$. 
-
-
+In collaborative filtering experiments, the objective is to predict the vector of attributes for each node. In our experiments, we used leave-one-out validation to predict the attribute vector for each node. That is, for each node in the network, we created a single node test set. The training set, was then the rest of the network with the node to predict removed. For this single test set node, we identified neighbors it connects to in only connectivity space within the training set. For standard collaborative filtering approaches (Neighborhood average and weighted neighborhood average), the predicted attribute for the test set node is then the specified averaging of the neighbors. To use our model for this task, we first fit the attributed SBM model to the training set. Similar to the standard link prediction approaches, we identify the nearest neighbors for our test node in connectivity space within the training set. We then predict the community membership of our test node to be the most-frequently observed community among its neighbors. Using this community assignment, $c$, we then predict the attribute vector for our test node to be ${\bf \mu}_{c}$, or the mean vector that was learned to describe community $c$. The results of collaborative filtering experiments for the microbiome and protein network examples are shown in figures 6 and 10. For node a node $i$ and its associated vector of attributes, ${\bf x}_{i}$ we quantify the accuracy of the predicted attribute vector, $\hat{{\bf x}_{i}}$ with a a relative error measure, $\mathcal{E}$, such that 
+\begin{equation}
+\mathcal{E}=\frac{||\hat{\bf{x}}_{i}-{\bf x}_{i}||_{2}}{||{\bf x}_{i}||_{2}}.
+\end{equation}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -447,7 +451,7 @@ While the motivation for the development of this method was not motivated by pro
 In the analysis of biological data, it is often useful to cluster subjects based on a set of their measure biological features and to then determine what makes each of the subgroups different. One type of biological data gaining much attention in recent years is metagenomic sequencing data, used to profile the composition of a microbiome. We refer to this as the 'metagenomic profile' and each feature is a count for each bacterial species, also known as operational taxonomic unit (OTU). Lahti et al. conducted a study among subjects across a variety of ethnicities, body mass (BMI) classifications, and age groups to understand differences in the intestinal microbiota \cite{microbiomedata}. Using metagenomic sequencing, the counts for 130 OTUs were provided for each subject. We created an experiment to test our model by seeing if we could overlay a similarity network between subjects with the individual OTU count vectors for each subject. 
 
 {\bf Pre-Processing}
-The data were downloaded from \url{http://datadryad.org/resource/doi:10.5061/dryad.pk75d}. We extracted a subset of the subjects from Eastern Europe,Southern Europe,Scandinavia, and the United States. Using only these subjects, a between-subject similarity network was constructed between the 121 individuals who had a BMI measurement. This resulted in a network of 121 nodes, where each edge is the pearson correlation between their microbial compositions. We then removed all edges in the network with weight (correlation) <0.7. Note that our attributed SBM does not allow for edge weights, so as input of this network into the model, we simply ignored the edge weights. 
+The data were downloaded from \url{http://datadryad.org/resource/doi:10.5061/dryad.pk75d}.We extracted a subset of the subjects from Eastern Europe,Southern Europe,Scandinavia, and the United States. Using only these subjects, a between-subject similarity network was constructed between the 121 individuals who had a BMI measurement. This resulted in a network of 121 nodes, where each edge is the pearson correlation between their microbial compositions. We then removed all edges in the network with weight (correlation) <0.7. Note that our attributed SBM does not allow for edge weights, so as input of this network into the model, we simply ignored the edge weights. 
 
 {\bf Constructing Node Attributes}
 Since each node had a 130-dimensional vector of attributes (counts), we used this information to create a lower-dimensional attribute vector for each node by performing PCA and then representing each node with the first 5 principal components. Each dimension of this new attribute vector was then centered and scaled and has an approximately gaussian distribution. 
@@ -457,12 +461,12 @@ We first visualized the differences in partitions obtained according to the clas
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.5\textwidth]{MicrobiomeNets_Dec12.pdf}
-\caption{{\bf Microbiome subject similarity network:} A visualization of the 121node microbiome subject similarity network with nodes colored by the partition using the classic ({\bf A.}) and attributed ({\bf B.}) stochastic block model. {\bf A.} Fitting the classic stochastic block model to the network, 7 communities were identified. {\bf B.} Fitting the attributed stochastic block model to the network with the attributes being the first 5 principle components of each subject's OTU count vector (metagenomic profile), 6 communities were identified. Incorporating attributes in inferring this partition removed some of the noise in the partition on the network, specifically in the mixed purple community in the left of {\bf A.}}
+\caption{{\bf Microbiome subject similarity network:} A visualization of the 121 node microbiome subject similarity network with nodes colored by the partition using the classic ({\bf A.}) and attributed ({\bf B.}) stochastic block model. {\bf A.} Fitting the classic stochastic block model to the network, 7 communities were identified. {\bf B.} Fitting the attributed stochastic block model to the network with the attributes being the first 5 principle components of each subject's OTU count vector (metagenomic profile), 6 communities were identified. Incorporating attributes in inferring this partition removed some of the noise in the partition on the network, specifically in the mixed purple community in the left of {\bf A.}}
 \end{center}
 \end{figure}
 
 {\bf Microbiome Link Prediction}
-In figure 4a-b we show the results for the link prediction in the sample similarity network. To perform link prediction, we selected 25 pairs of nodes (i.e. edge stubs) from our 121-node subject network. In our prediction task , we sought to model the ability to use only the attribute information and our fitted model to predict whether there was a link. Repeating this experiment 25 times, we obtained a distribution of area under the curve (AUC) values in figure 4A. and plotted the ROC curves corresponding to the experiment closest to the median for all link prediction methods. 
+In figure 4a-b we show the results for the link prediction in the microbiome sample similarity network. These experiments were performed in the manner described in section 4.1. To perform link prediction, we selected 25 pairs of nodes (i.e. edge stubs) from our 121-node subject network. In our prediction task , we sought to model the ability to use only the attribute information and our fitted model to predict whether there was a link. Repeating this experiment 25 times, we obtained a distribution of area under the curve (AUC) values in figure 4A. and plotted the ROC curves corresponding to the experiment closest to the median for all link prediction methods. 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.4\textwidth]{ROC_Microbiome.pdf}
@@ -471,57 +475,62 @@ In figure 4a-b we show the results for the link prediction in the sample similar
 \end{figure}
 
 {\bf Microbiome Collaborative Filtering}
-Figure X shows the results for the collaborative filtering task on the subject microbiome network
+We performed the collaborative filtering experiments on the microbiome subject similarity network in the manner described in section 4.2 to predict the 5-dimensional attribute vector for each node. The box plots indicate the distribution of relative errors over the 121 nodes for the attribute SBM (blue), neighbor average (pink) and weighted neighbor average (orange). While these distributions look similar,   While the attributed SBM plotted has a similar distribution of relative errors with the standard collaborative filtering methods, the mean is slightly lower, at 0.21, compared to 0.26 and 0.27 in the neighbor average and weighted neighbor average, respectively.
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[width=0.3\textwidth]{CollabFilterMicro.pdf}
-\caption{{\bf Collaborative Filtering Accuracy in Microbiome Data}: For each of the 121 nodes, we fit a model to the remaining 120 node network and given the node's closest network neighbors try to compute its attribute value. Error is the 2-norm between true and predicted attributes. }
+\caption{{\bf Collaborative Filtering Accuracy in Microbiome Subject Similarity Network}: For each of the 121 nodes, we fit a model to the remaining 120 node network and given the node's closest  neighbors (based on network connectivity) sought to predict its 5-dimensional attribute vector. The reported error is the relative error $\mathcal{E}$ between the difference between the true attribute vector (${\bf x}_{i}$) and its predicted attribute vector (${\hat{\bf x}}_{i}$). The mean error in ${\bf x}_{i}$ is 0.21, as opposed to the neighbor average and weighted neighbor averages, having errors of 0.26 and 0.27, respectively. }
 \end{center}
 \end{figure}
 
-Here, we sought to predict the 6 dimensional attribute vector for each node. 
-
-sahfkahfkjh insert more text
-
 \subsection{Protein Interaction Network Results}
-We also apply our attributed SBM approach to the protein interaction network presented in \cite{bonacci2014}. This network represents interactions between proteins, predicted from the literature. Associated with each each node (protein), is a vector of experimentally observed modifications resulting from the exposure of cancer cells to a chemotherapeutic drug. Proteins were able to undergo six possible modifications. While communities in this network should reflect functional relatedness among proteins, we also expect that members of a community should share similarities in the observed modification type. 
+We also apply our attributed SBM approach to the protein interaction network presented in \cite{bonacci}. This network represents interactions between proteins, predicted from the literature. Associated with each each node (protein), is a classification of one of 6 experimental modifications observed from the exposure of cancer cells to a chemotherapeutic drug. While communities in this network should reflect functional relatedness among proteins (i.e. similar biological functions, in general), we also expect that members of a community should share similarities in the observed modification type. Also associated with each of the 6 modification types is whether that particular type of modification became either more or less prominent after treatment with the drug. Since we have two types of labels associated with these nodes, we also sought to explore how these two labeling schemes (6 class vs. 2 class) aligned with the communities returned by the algorithm. 
 
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[width=0.5\textwidth]{ProteinNet_Dec12.pdf}
-\caption{{\bf Protein interaction network}}
+\caption{{\bf Protein interaction network.} We visualize the 82 node protein interaction network under the classic stochastic block model {\bf A.} and the attributed stochastic block model {\bf B.} In both networks, nodes are colored by their community assignment and the node shape indicates whether the modification status increased (square) or decreased. {\bf A.} Nodes colored according to the community partition under the stochastic block model. Nodes are assigned to one of five communities. {\bf B.} Nodes are colored to the community partition under one of nine communities.}
 \end{center}
 \end{figure}
 
-{\bf Data Pre-Processing: } We downloaded the network data and the modification information from the supplement of \cite{bonacci2014}. 
+{\bf Data Pre-Processing: } We downloaded the unweighted protein interaction network data and the modification information from the supplement of \cite{bonacci}. We removed 13 nodes that were not connected to the giant component of the network and considered only the 82 node giant connected component.
 
 {\bf Constructing Node Attributes:}
-For each node, we constructed its attributes vector as a vector of length 6, where each entry is a binary indicator for which of the 6 modifications was experimentally observed. 
+As previously described, each node is classified with 1 of 6 possible modification type. For each node, we created an attribute vector that captured the modification types of its neighbors. To do this, we considered the 4th order neighborhood of each node. That is, for each node, we collected its neighbors who were four hops or less away in the network. Then to define the value for attribute $c$ of node $i$, or $x_{ic}$, we counted the number of fourth order neighbors of node $i$ with label $c$. After defining these attributes across all nodes, for each of the 6 classes, we centered and scaled each attribute across all of the nodes. 
 
-Figure 6A-B show the results of fitting a classic SBM and attributed SBM, respectively.  The 6 possible modifications exist for 3 biological processes that can either increase or decrease. The node shape reflects whether the modification for a node was an increase (square) or decrease (circle). Nodes are colored by their assignment into 1 of x communities. (mention something about  the intuition behind the color groupings).
-
-\begin{figure}[ht!]
+Figure 7A-B show the results of fitting a classic SBM and attributed SBM, respectively.  The 6 possible modifications exist for 3 biological processes that can either increase or decrease. The node shape reflects whether the experimental modification for a node increased (square) or decreased (circle) after treatment with the chemotherapeutic agent. Again by fitting an SBM with the model selection criterion in \cite{dudin}, 5 communities were identified. With our attributed SBM, 9 communities were identified.
+ \begin{figure}[ht!]
 \begin{center}
 \includegraphics[width=0.45\textwidth]{EntropyCalc_6Classleft_2classright.pdf}
-\caption{{\bf Community Entropies}}
+\caption{{\bf Community entropies in the protein interaction network.} We studied the entropy of the 2 class and 6 class classifications of the nodes in {\bf A.} and {\bf B.}, respectively under the classic SBM (black) and attributed SBM (purple) partitions. For ${\bf A-B}$ the horizontal axis denotes the community index for the particular partition. Nodes belonged to 1 of 5 communities under the classic SBM and belong to 1 of 9 communities with the attributed SBM. Incorporating attributes under both classifications succeeds in breaking up a high entropy community (5) from the classic SBM partition to lower entropy communities in the attributed SBM partition. }
 \end{center}
 \end{figure}
 
-Next, we studied the entropies of these binary node classifications in each of the communities according to the regular and attributed SBM partitions. The hypothesis was that using the attributed SBM, we should have lower entropy of these two labels within communities because the attribute component of the model should assist in creating communities that are not only spatially relevant but also agree in attributes. 
+Using the partition of the nodes under the classic and attributed stochastic block models, we sought to use the two different classifications of the nodes (6 class modification type and 2 class increase/decrease) to compute entropy of labels within communities. The expectation is that by incorporating attribute information that is related to the functional protein information into the community detection problem, we should see a decrease in the entropy over the classification labels in communities. In figure 8A-B, we plot the entropy for the 2 class and 6 class node classifications, respectively. We define ${\bf E}_{c}$, the entropy for community $c$ as,
+
+\begin{equation}
+{\bf E}_{c}=-\sum_{k} p_{k}\log(p_{k}).
+\end{equation}.
+
+Here $k$ is indexing the unique classifications found in community $c$ and $p_{k}$ is the probability that a node in community $c$ belonged to classification $k$. In these plots the black and purple curves correspond to the fits of the classic and attribute SBM fits, respectively. Using both types of node classifications to compute these entropy quantities, we see that the attribute SBM succeeds in breaking up one high entropy community (5) from the classic SBM partition into lower entropy communities. 
 
 {\bf Link Prediction in the Protein interaction network}
+We performed link prediction on the protein interaction network using the procedure described in section 4.1. Given that this protein network is sparse, none of the link prediction methods performed particularly well. The AUC values for the attributed SBM, jaccard, adamic adar and preferential attachment were 0.61, 0.58, 0.58, and 0.54, respectively. The associated ROC curves are shown in figure 9.  
+
 \begin{figure}[ht!]
 \begin{center}
 \includegraphics[width=0.4\textwidth]{ROC_Protein.pdf}
-\caption{{\bf Link Prediction Results in Protein Interaction Network}}
+\caption{{\bf Link Prediction in the protein interaction network}. Performing link prediction using the attributed SBM, jaccard, agamic adar, and preferential attachment. The corresponding AUC curves for these methods were 0.61, 0.58, 0.58, and 0.51, respectively.}
 \end{center}
 \end{figure}
 
 {\bf Collaborative filtering in the protein interaction network}
+Collaborative filtering was performed using the method described in section 4.2. Note that unlike the microbiome sample similarity network, the edges in this network are unweighted and hence the neighbor average and weighted neighbor average methods produce the same result. We note that performing collaborative filtering with the attributed stochastic block model results in a lower mean error of 0.21 compared to that of 0.48 when using the neighbor average. Similar to figure 5, the box plots represent the distribution of errors across each of the 82 nodes.
+
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.3\textwidth]{CollabProtein.pdf}
-\caption{{\bf Collaborative filtering in protein interaction network}}
+\caption{{\bf Collaborative filtering in the protein interaction network}. For each of the 82 nodes, we fit a model to the remaining 81 node network and given the node's closest  neighbors (based on network connectivity) sought to predict its 6-dimensional attribute vector. The reported error is the relative error $\mathcal{E}$ between the difference between the true attribute vector (${\bf x}_{i}$) and its predicted attribute vector (${\hat{\bf x}}_{i}$). The mean error in ${\bf x}_{i}$ using the attributed SBM is 0.21, as opposed to the neighbor average error where it is 0.48. }
 \end{center}
 \end{figure}
 

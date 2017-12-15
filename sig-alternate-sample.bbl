@@ -6,11 +6,19 @@ N.~Aghaeepour, E.~A. Ganio, D.~Mcilwain, A.~S. Tsai, M.~Tingle, S.~Van~Gassen,
 \newblock An immune clock of human pregnancy.
 \newblock {\em Science immunology}, 2(15):eaan2946, 2017.
 
-\bibitem{browetCommunity}
-A.~Browet, P.-A. Absil, and P.~Van~Dooren.
-\newblock Community detection for hierarchical image segmentation.
-\newblock In {\em Combinatorial Image Analysis}, pages 358--371. Springer,
-  2011.
+\bibitem{blondel}
+V.~D. Blondel, J.-L. Guillaume, R.~Lambiotte, and E.~Lefebvre.
+\newblock Fast unfolding of communities in large networks.
+\newblock {\em Journal of statistical mechanics: theory and experiment},
+  2008(10):P10008, 2008.
+
+\bibitem{bonacci}
+T.~Bonacci, S.~Audebert, L.~Camoin, E.~Baudelet, G.~Bidaut, M.~Garcia, I.-I.
+  Witzel, N.~D. Perkins, J.-P. Borg, J.-L. Iovanna, et~al.
+\newblock Identification of new mechanisms of cellular response to chemotherapy
+  by tracking changes in post-translational modifications by ubiquitin and
+  ubiquitin-like proteins.
+\newblock {\em Journal of proteome research}, 13(5):2478--2494, 2014.
 
 \bibitem{ilouvain}
 D.~Combe, C.~Largeron, M.~G{\'e}ry, and E.~Egyed-Zsigmond.
@@ -22,12 +30,6 @@ D.~Combe, C.~Largeron, M.~G{\'e}ry, and E.~Egyed-Zsigmond.
 J.-J. Daudin, F.~Picard, and S.~Robin.
 \newblock A mixture model for random graphs.
 \newblock {\em Statistics and computing}, 18(2):173--183, 2008.
-
-\bibitem{mooreDetect}
-A.~Decelle, F.~Krzakala, C.~Moore, and L.~Zdeborov{\'a}.
-\newblock Asymptotic analysis of the stochastic block model for modular
-  networks and its algorithmic applications.
-\newblock {\em Physical Review E}, 84(6):066106, 2011.
 
 \bibitem{EM}
 A.~P. Dempster, N.~M. Laird, and D.~B. Rubin.
@@ -42,10 +44,22 @@ D.~Greene and P.~Cunningham.
 \newblock In {\em Proceedings of the 5th Annual ACM Web Science Conference},
   pages 118--121. ACM, 2013.
 
+\bibitem{cancer}
+J.~Guinney, R.~Dienstmann, X.~Wang, A.~de~Reyni{\`e}s, A.~Schlicker,
+  C.~Soneson, L.~Marisa, P.~Roepman, G.~Nyamundanda, P.~Angelino, et~al.
+\newblock The consensus molecular subtypes of colorectal cancer.
+\newblock {\em Nature medicine}, 2015.
+
 \bibitem{hollandSBM}
 P.~W. Holland, K.~B. Laskey, and S.~Leinhardt.
 \newblock Stochastic blockmodels: First steps.
 \newblock {\em Social networks}, 5(2):109--137, 1983.
+
+\bibitem{hric}
+D.~Hric, T.~P. Peixoto, and S.~Fortunato.
+\newblock Network structure, metadata, and the prediction of missing nodes and
+  annotations.
+\newblock {\em Physical Review X}, 6(3):031038, 2016.
 
 \bibitem{microbiomedata}
 L.~Lahti, J.~Saloj{\"a}rvi, A.~Salonen, M.~Scheffer, and W.~M. De~Vos.
@@ -64,27 +78,30 @@ J.~Leskovec, K.~J. Lang, and M.~Mahoney.
 \newblock In {\em Proceedings of the 19th international conference on World
   wide web}, pages 631--640. ACM, 2010.
 
-\bibitem{newmanDetect}
-R.~R. Nadakuditi and M.~E. Newman.
-\newblock Graph spectra and the detectability of community structure in
-  networks.
-\newblock {\em Physical review letters}, 108(18):188701, 2012.
-
 \bibitem{clauset}
 M.~Newman and A.~Clauset.
 \newblock Structure and inference in annotated networks.
 \newblock {\em arXiv preprint arXiv:1507.04001}, 2015.
+
+\bibitem{peel2017ground}
+L.~Peel, D.~B. Larremore, and A.~Clauset.
+\newblock The ground truth about metadata and community detection in networks.
+\newblock {\em Science Advances}, 3(5):e1602548, 2017.
 
 \bibitem{muchacommunity}
 M.~A. Porter, J.-P. Onnela, and P.~J. Mucha.
 \newblock Communities in networks.
 \newblock {\em Notices of the AMS}, 56(9):1082--1097, 2009.
 
-\bibitem{malikSeg}
-J.~Shi and J.~Malik.
-\newblock Normalized cuts and image segmentation.
-\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
-  on}, 22(8):888--905, 2000.
+\bibitem{shaiCC}
+S.~Shai, N.~Stanley, C.~Granell, D.~Taylor, and P.~J. Mucha.
+\newblock Case studies in network community detection.
+\newblock {\em arXiv preprint arXiv:1705.02305}, 2017.
+
+\bibitem{jureGroundTruth}
+J.~Yang and J.~Leskovec.
+\newblock Defining and evaluating network communities based on ground-truth.
+\newblock {\em Knowledge and Information Systems}, 42(1):181--213, 2015.
 
 \bibitem{cesna}
 J.~Yang, J.~McAuley, and J.~Leskovec.
