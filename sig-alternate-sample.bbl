@@ -26,16 +26,34 @@ D.~Combe, C.~Largeron, M.~G{\'e}ry, and E.~Egyed-Zsigmond.
 \newblock In {\em Advances in Intelligent Data Analysis XIV}, pages 181--192.
   Springer, 2015.
 
+\bibitem{commdeccompare}
+L.~Danon, A.~Diaz-Guilera, J.~Duch, and A.~Arenas.
+\newblock Comparing community structure identification.
+\newblock {\em Journal of Statistical Mechanics: Theory and Experiment},
+  2005(09):P09008, 2005.
+
 \bibitem{dudin}
 J.-J. Daudin, F.~Picard, and S.~Robin.
 \newblock A mixture model for random graphs.
 \newblock {\em Statistics and computing}, 18(2):173--183, 2008.
+
+\bibitem{decelle}
+A.~Decelle, F.~Krzakala, C.~Moore, and L.~Zdeborov{\'a}.
+\newblock Inference and phase transitions in the detection of modules in sparse
+  networks.
+\newblock {\em Physical Review Letters}, 107(6):065701, 2011.
 
 \bibitem{EM}
 A.~P. Dempster, N.~M. Laird, and D.~B. Rubin.
 \newblock Maximum likelihood from incomplete data via the em algorithm.
 \newblock {\em Journal of the royal statistical society. Series B
   (methodological)}, pages 1--38, 1977.
+
+\bibitem{collabComm}
+W.~Deng, R.~Patil, L.~Najjar, Y.~Shi, and Z.~Chen.
+\newblock Incorporating community detection and clustering techniques into
+  collaborative filtering model.
+\newblock {\em Procedia Computer Science}, 31:66--74, 2014.
 
 \bibitem{socialnetwork}
 D.~Greene and P.~Cunningham.
@@ -88,6 +106,12 @@ L.~Peel, D.~B. Larremore, and A.~Clauset.
 \newblock The ground truth about metadata and community detection in networks.
 \newblock {\em Science Advances}, 3(5):e1602548, 2017.
 
+\bibitem{tiagomcmc}
+T.~P. Peixoto.
+\newblock Efficient monte carlo and greedy heuristic for the inference of
+  stochastic block models.
+\newblock {\em Physical Review E}, 89(1):012804, 2014.
+
 \bibitem{muchacommunity}
 M.~A. Porter, J.-P. Onnela, and P.~J. Mucha.
 \newblock Communities in networks.
@@ -97,6 +121,30 @@ M.~A. Porter, J.-P. Onnela, and P.~J. Mucha.
 S.~Shai, N.~Stanley, C.~Granell, D.~Taylor, and P.~J. Mucha.
 \newblock Case studies in network community detection.
 \newblock {\em arXiv preprint arXiv:1705.02305}, 2017.
+
+\bibitem{collabFilterReview}
+Y.~Shi, M.~Larson, and A.~Hanjalic.
+\newblock Collaborative filtering beyond the user-item matrix: A survey of the
+  state of the art and future challenges.
+\newblock {\em ACM Computing Surveys (CSUR)}, 47(1):3, 2014.
+
+\bibitem{linkComm}
+S.~Soundarajan and J.~Hopcroft.
+\newblock Using community information to improve the precision of link
+  prediction methods.
+\newblock In {\em Proceedings of the 21st International Conference on World
+  Wide Web}, pages 607--608. ACM, 2012.
+
+\bibitem{taylor}
+D.~Taylor, S.~Shai, N.~Stanley, and P.~J. Mucha.
+\newblock Enhanced detectability of community structure in multilayer networks
+  through layer aggregation.
+\newblock {\em Physical review letters}, 116(22):228301, 2016.
+
+\bibitem{linkPredReview}
+P.~Wang, B.~Xu, Y.~Wu, and X.~Zhou.
+\newblock Link prediction in social networks: the state-of-the-art.
+\newblock {\em arXiv preprint arXiv:1411.5118}, 2014.
 
 \bibitem{jureGroundTruth}
 J.~Yang and J.~Leskovec.
@@ -108,5 +156,12 @@ J.~Yang, J.~McAuley, and J.~Leskovec.
 \newblock Community detection in networks with node attributes.
 \newblock In {\em Data mining (ICDM), 2013 ieee 13th international conference
   on}, pages 1151--1156. IEEE, 2013.
+
+\bibitem{comparative}
+P.~Zhang, F.~Krzakala, J.~Reichardt, and L.~Zdeborov{\'a}.
+\newblock Comparative study for inference of hidden classes in stochastic block
+  models.
+\newblock {\em Journal of Statistical Mechanics: Theory and Experiment},
+  2012(12):P12021, 2012.
 
 \end{thebibliography}

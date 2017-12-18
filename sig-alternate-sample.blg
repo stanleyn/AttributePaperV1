@@ -7,45 +7,45 @@ Repeated entry---line 109 of file sigproc.bib
  : @inproceedings{cesna
  :                     ,
 I'm skipping whatever remains of this entry
-You've used 19 entries,
+You've used 28 entries,
             2118 wiz_defined-function locations,
-            623 strings with 7633 characters,
-and the built_in function-call counts, 7979 in all, are:
-= -- 771
-> -- 477
-< -- 5
-+ -- 192
-- -- 168
-* -- 630
-:= -- 1334
-add.period$ -- 61
-call.type$ -- 19
-change.case$ -- 138
+            680 strings with 9384 characters,
+and the built_in function-call counts, 11213 in all, are:
+= -- 1079
+> -- 658
+< -- 6
++ -- 263
+- -- 230
+* -- 886
+:= -- 1887
+add.period$ -- 89
+call.type$ -- 28
+change.case$ -- 196
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 261
-empty$ -- 538
-format.name$ -- 168
-if$ -- 1637
+cite$ -- 28
+duplicate$ -- 371
+empty$ -- 771
+format.name$ -- 230
+if$ -- 2296
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 19
-newline$ -- 98
-num.names$ -- 38
-pop$ -- 128
+int.to.str$ -- 28
+missing$ -- 28
+newline$ -- 143
+num.names$ -- 56
+pop$ -- 175
 preamble$ -- 1
-purify$ -- 119
+purify$ -- 168
 quote$ -- 0
-skip$ -- 192
+skip$ -- 267
 stack$ -- 0
-substring$ -- 500
-swap$ -- 65
-text.length$ -- 5
+substring$ -- 689
+swap$ -- 84
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 76
+type$ -- 112
 warning$ -- 0
-while$ -- 68
-width$ -- 21
-write$ -- 212
+while$ -- 97
+width$ -- 30
+write$ -- 311
 (There was 1 error message)
