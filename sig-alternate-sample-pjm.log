@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  27 FEB 2018 09:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  27 FEB 2018 09:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**sig-alternate-sample.tex
-(./sig-alternate-sample.tex
+**sig-alternate-sample-pjm.tex
+(./sig-alternate-sample-pjm.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (./sig-alternate-05-2015.cls
@@ -394,8 +394,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip48
 )
-(./sig-alternate-sample.aux)
-\openout1 = `sig-alternate-sample.aux'.
+(./sig-alternate-sample-pjm.aux)
+\openout1 = `sig-alternate-sample-pjm.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
 LaTeX Font Info:    ... okay on input line 59.
@@ -465,9 +465,9 @@ LaTeX Info: Redefining \ref on input line 59.
 LaTeX Info: Redefining \pageref on input line 59.
 LaTeX Info: Redefining \nameref on input line 59.
 
-(./sig-alternate-sample.out) (./sig-alternate-sample.out)
+(./sig-alternate-sample-pjm.out) (./sig-alternate-sample-pjm.out)
 \@outlinefile=\write4
-\openout4 = `sig-alternate-sample.out'.
+\openout4 = `sig-alternate-sample-pjm.out'.
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 188.
 
@@ -697,7 +697,7 @@ Overfull \hbox (1.40239pt too wide) in paragraph at lines 564--565
 []\T1/aer/m/n/9 Networks used across fields are be-com-ing in-creas-ingly com-
  []
 
-(./sig-alternate-sample.bbl
+(./sig-alternate-sample-pjm.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
@@ -716,21 +716,22 @@ l.634 \end{document}
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 634.
- (./sig-alternate-sample.aux)
+ (./sig-alternate-sample-pjm.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 634.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 634.
-Package rerunfilecheck Info: File `sig-alternate-sample.out' has not changed.
+Package rerunfilecheck Info: File `sig-alternate-sample-pjm.out' has not change
+d.
 (rerunfilecheck)             Checksum: C5B2F3498E3B446B4926DC06D7E88EF5;1253.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 634.
  ) 
 Here is how much of TeX's memory you used:
  8441 strings out of 492995
- 123280 string characters out of 6132704
+ 123340 string characters out of 6132704
  232904 words of memory out of 5000000
  11747 multiletter control sequences out of 15000+600000
  59916 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,16n,92p,1914b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,16n,92p,1918b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texl
@@ -752,7 +753,7 @@ ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on sig-alternate-sample.pdf (10 pages, 889587 bytes).
+Output written on sig-alternate-sample-pjm.pdf (10 pages, 889724 bytes).
 PDF statistics:
  557 PDF objects out of 1000 (max. 8388607)
  457 compressed objects within 5 object streams
