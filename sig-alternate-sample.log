@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  27 FEB 2018 09:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  27 FEB 2018 10:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -489,15 +489,6 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 188.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 188.
-
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 188.
-
 Underfull \vbox (badness 1028) has occurred while \output is active []
 
 
@@ -516,7 +507,7 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 262.
 
-<GraphModel.pdf, id=142, 311.1625pt x 125.46875pt>
+<GraphModel.pdf, id=140, 311.1625pt x 125.46875pt>
 File: GraphModel.pdf Graphic file (type pdf)
  <use GraphModel.pdf>
 Package pdftex.def Info: GraphModel.pdf used on input line 277.
@@ -545,7 +536,7 @@ een already used, duplicate ignored
                    \relax 
 l.400 
        [3 <./GraphModel.pdf>]
-<SyntheticFig.pdf, id=227, 470.75874pt x 274.02374pt>
+<SyntheticFig.pdf, id=225, 470.75874pt x 274.02374pt>
 File: SyntheticFig.pdf Graphic file (type pdf)
  <use SyntheticFig.pdf>
 Package pdftex.def Info: SyntheticFig.pdf used on input line 411.
@@ -562,7 +553,7 @@ OMS/cmsy/m/n/9 f\OT1/cmr/bx/n/9 z[]\OML/cmm/m/it/9 ; \OT1/cmr/bx/n/9 z[]\OML/cm
 m/m/it/9 ; \OT1/cmr/bx/n/9 z[]\OMS/cmsy/m/n/9 g\OT1/cmr/m/n/9 ) =
  []
 
-<DetectExp.pdf, id=231, 433.62pt x 361.35pt>
+<DetectExp.pdf, id=229, 433.62pt x 361.35pt>
 File: DetectExp.pdf Graphic file (type pdf)
  <use DetectExp.pdf>
 Package pdftex.def Info: DetectExp.pdf used on input line 424.
@@ -608,7 +599,7 @@ een already used, duplicate ignored
                    \relax 
 l.457 \begin{equation}
                        [5 <./DetectExp.pdf>]
-<MicrobiomeNets_Dec12.pdf, id=293, 576.1525pt x 269.005pt>
+<MicrobiomeNets_Dec12.pdf, id=291, 576.1525pt x 269.005pt>
 File: MicrobiomeNets_Dec12.pdf Graphic file (type pdf)
 
 <use MicrobiomeNets_Dec12.pdf>
@@ -625,13 +616,13 @@ een already used, duplicate ignored
                    \relax 
 l.490 
        [6 <./MicrobiomeNets_Dec12.pdf>]
-<ROC_Microbiome.pdf, id=336, 407.31653pt x 368.4996pt>
+<ROC_Microbiome.pdf, id=334, 407.31653pt x 368.4996pt>
 File: ROC_Microbiome.pdf Graphic file (type pdf)
 
 <use ROC_Microbiome.pdf>
 Package pdftex.def Info: ROC_Microbiome.pdf used on input line 493.
 (pdftex.def)             Requested size: 201.59692pt x 182.38255pt.
- <CollabFilterMicro.pdf, id=337, 433.62pt x 433.62pt>
+ <CollabFilterMicro.pdf, id=335, 433.62pt x 433.62pt>
 File: CollabFilterMicro.pdf Graphic file (type pdf)
 
 <use CollabFilterMicro.pdf>
@@ -641,7 +632,7 @@ Package pdftex.def Info: CollabFilterMicro.pdf used on input line 502.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<ProteinNet_Dec12.pdf, id=339, 740.7675pt x 342.27875pt>
+<ProteinNet_Dec12.pdf, id=337, 740.7675pt x 342.27875pt>
 File: ProteinNet_Dec12.pdf Graphic file (type pdf)
 
 <use ProteinNet_Dec12.pdf>
@@ -659,7 +650,7 @@ een already used, duplicate ignored
 l.521 
        [7 <./ROC_Microbiome.pdf, page is rotated 90 degrees> <./CollabFilterMic
 ro.pdf> <./ProteinNet_Dec12.pdf>]
-<EntropyCalc_6Classleft_2classright.pdf, id=401, 578.16pt x 361.35pt>
+<EntropyCalc_6Classleft_2classright.pdf, id=399, 578.16pt x 361.35pt>
 File: EntropyCalc_6Classleft_2classright.pdf Graphic file (type pdf)
 
 <use EntropyCalc_6Classleft_2classright.pdf>
@@ -671,13 +662,13 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 525--526
  [] 
  []
 
-<ROC_Protein.pdf, id=402, 410.7045pt x 373.6141pt>
+<ROC_Protein.pdf, id=400, 410.7045pt x 373.6141pt>
 File: ROC_Protein.pdf Graphic file (type pdf)
  <use ROC_Protein.pdf>
 Package pdftex.def Info: ROC_Protein.pdf used on input line 544.
 (pdftex.def)             Requested size: 201.59692pt x 183.38606pt.
 
-<CollabProtein.pdf, id=404, 433.62pt x 433.62pt>
+<CollabProtein.pdf, id=402, 433.62pt x 433.62pt>
 File: CollabProtein.pdf Graphic file (type pdf)
  <use CollabProtein.pdf>
 Package pdftex.def Info: CollabProtein.pdf used on input line 553.
@@ -724,13 +715,13 @@ Package rerunfilecheck Info: File `sig-alternate-sample.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 634.
  ) 
 Here is how much of TeX's memory you used:
- 8441 strings out of 492995
- 123280 string characters out of 6132704
+ 8421 strings out of 492995
+ 122941 string characters out of 6132704
  232904 words of memory out of 5000000
- 11747 multiletter control sequences out of 15000+600000
- 59916 words of font info for 88 fonts, out of 8000000 for 9000
+ 11731 multiletter control sequences out of 15000+600000
+ 58780 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,16n,92p,1914b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,16n,92p,1914b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texl
@@ -744,18 +735,16 @@ live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
 017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fon
-ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
-1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/time
-s/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.
-pfb>
-Output written on sig-alternate-sample.pdf (10 pages, 889587 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/f
+onts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb>
+Output written on sig-alternate-sample.pdf (10 pages, 867704 bytes).
 PDF statistics:
- 557 PDF objects out of 1000 (max. 8388607)
- 457 compressed objects within 5 object streams
+ 549 PDF objects out of 1000 (max. 8388607)
+ 451 compressed objects within 5 object streams
  79 named destinations out of 1000 (max. 500000)
  195 words of extra memory for PDF output out of 10000 (max. 10000000)
 
