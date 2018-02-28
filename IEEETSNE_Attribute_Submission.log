@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  27 FEB 2018 14:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 FEB 2018 16:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -464,16 +464,16 @@ LaTeX Font Info:    Calculating math sizes for size <11> on input line 448.
 
 
 ]
-<GraphModel.pdf, id=135, 311.1625pt x 125.46875pt>
+[2] <GraphModel.pdf, id=153, 311.1625pt x 125.46875pt>
 File: GraphModel.pdf Graphic file (type pdf)
  <use GraphModel.pdf>
 Package pdftex.def Info: GraphModel.pdf used on input line 491.
 (pdftex.def)             Requested size: 155.58087pt x 62.7342pt.
 
-[2] [3 <./GraphModel.pdf>]
-<SyntheticFig.pdf, id=221, 470.75874pt x 274.02374pt>
+[3 <./GraphModel.pdf>] <SyntheticFig.pdf, id=223, 470.75874pt x 274.02374pt>
 File: SyntheticFig.pdf Graphic file (type pdf)
- <use SyntheticFig.pdf>
+
+<use SyntheticFig.pdf>
 Package pdftex.def Info: SyntheticFig.pdf used on input line 625.
 (pdftex.def)             Requested size: 258.0pt x 150.17831pt.
 
@@ -487,50 +487,50 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 1226) has occurred while \output is active []
 
- [4 <./SyntheticFig.pdf>] <DetectExp.pdf, id=266, 433.62pt x 361.35pt>
+ [4 <./SyntheticFig.pdf>] <DetectExp.pdf, id=273, 433.62pt x 361.35pt>
 File: DetectExp.pdf Graphic file (type pdf)
  <use DetectExp.pdf>
-Package pdftex.def Info: DetectExp.pdf used on input line 638.
+Package pdftex.def Info: DetectExp.pdf used on input line 639.
 (pdftex.def)             Requested size: 206.39685pt x 171.99591pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 656--657
+Underfull \hbox (badness 10000) in paragraph at lines 658--659
 
  []
 
 [5 <./DetectExp.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 687--689
+Underfull \hbox (badness 10000) in paragraph at lines 689--691
 []\OT1/ptm/b/n/10 Pre-Processing \OT1/ptm/m/n/10 The data were down-loaded from
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 687--689
+Underfull \hbox (badness 10000) in paragraph at lines 689--691
 [][]$\OT1/ptm/m/n/10 http : / / datadryad . org / resource / doi : 10 . 5061 / 
 dryad . pk75d$[][]. We
  []
 
-[6] <MicrobiomeNets_Dec12.pdf, id=297, 576.1525pt x 269.005pt>
+[6] <MicrobiomeNets_Dec12.pdf, id=316, 576.1525pt x 269.005pt>
 File: MicrobiomeNets_Dec12.pdf Graphic file (type pdf)
 
 <use MicrobiomeNets_Dec12.pdf>
-Package pdftex.def Info: MicrobiomeNets_Dec12.pdf used on input line 697.
+Package pdftex.def Info: MicrobiomeNets_Dec12.pdf used on input line 699.
 (pdftex.def)             Requested size: 258.0pt x 120.46416pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 697--698
+Overfull \hbox (6.0pt too wide) in paragraph at lines 699--700
  [] 
  []
 
-<ROC_Microbiome.pdf, id=298, 407.31653pt x 368.4996pt>
+<ROC_Microbiome.pdf, id=318, 407.31653pt x 368.4996pt>
 File: ROC_Microbiome.pdf Graphic file (type pdf)
 
 <use ROC_Microbiome.pdf>
-Package pdftex.def Info: ROC_Microbiome.pdf used on input line 707.
+Package pdftex.def Info: ROC_Microbiome.pdf used on input line 710.
 (pdftex.def)             Requested size: 206.39685pt x 186.72339pt.
- <CollabFilterMicro.pdf, id=299, 433.62pt x 433.62pt>
+ <CollabFilterMicro.pdf, id=320, 433.62pt x 433.62pt>
 File: CollabFilterMicro.pdf Graphic file (type pdf)
 
 <use CollabFilterMicro.pdf>
-Package pdftex.def Info: CollabFilterMicro.pdf used on input line 716.
+Package pdftex.def Info: CollabFilterMicro.pdf used on input line 720.
 (pdftex.def)             Requested size: 154.80157pt x 154.79962pt.
 
 
@@ -538,43 +538,40 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [7 <./MicrobiomeNets_Dec12.pdf> <./ROC_Microbiome.pdf, page is rotated 90 degre
 es> <./CollabFilterMicro.pdf>]
-<ProteinNet_Dec12.pdf, id=372, 740.7675pt x 342.27875pt>
+<ProteinNet_Dec12.pdf, id=389, 740.7675pt x 342.27875pt>
 File: ProteinNet_Dec12.pdf Graphic file (type pdf)
 
 <use ProteinNet_Dec12.pdf>
-Package pdftex.def Info: ProteinNet_Dec12.pdf used on input line 726.
+Package pdftex.def Info: ProteinNet_Dec12.pdf used on input line 731.
 (pdftex.def)             Requested size: 258.0pt x 119.20917pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 726--727
+Overfull \hbox (6.0pt too wide) in paragraph at lines 731--732
  [] 
  []
 
-<EntropyCalc_6Classleft_2classright.pdf, id=376, 578.16pt x 361.35pt>
+<EntropyCalc_6Classleft_2classright.pdf, id=394, 578.16pt x 361.35pt>
 File: EntropyCalc_6Classleft_2classright.pdf Graphic file (type pdf)
 
 <use EntropyCalc_6Classleft_2classright.pdf>
 Package pdftex.def Info: EntropyCalc_6Classleft_2classright.pdf used on input l
-ine 739.
+ine 745.
 (pdftex.def)             Requested size: 258.0pt x 161.24962pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 739--740
+Overfull \hbox (6.0pt too wide) in paragraph at lines 745--746
  [] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<ROC_Protein.pdf, id=377, 410.7045pt x 373.6141pt>
+[8 <./ProteinNet_Dec12.pdf> <./EntropyCalc_6Classleft_2classright.pdf>]
+<ROC_Protein.pdf, id=455, 410.7045pt x 373.6141pt>
 File: ROC_Protein.pdf Graphic file (type pdf)
  <use ROC_Protein.pdf>
-Package pdftex.def Info: ROC_Protein.pdf used on input line 758.
+Package pdftex.def Info: ROC_Protein.pdf used on input line 764.
 (pdftex.def)             Requested size: 206.39685pt x 187.75293pt.
 
-[8 <./ProteinNet_Dec12.pdf> <./EntropyCalc_6Classleft_2classright.pdf>]
-<CollabProtein.pdf, id=436, 433.62pt x 433.62pt>
+<CollabProtein.pdf, id=458, 433.62pt x 433.62pt>
 File: CollabProtein.pdf Graphic file (type pdf)
  <use CollabProtein.pdf>
-Package pdftex.def Info: CollabProtein.pdf used on input line 767.
+Package pdftex.def Info: CollabProtein.pdf used on input line 774.
 (pdftex.def)             Requested size: 154.80157pt x 154.79962pt.
 
 
@@ -582,25 +579,25 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 (./IEEETSNE_Attribute_Submission.bbl [9 <./ROC_Protein.pdf, page is rotated 90 
 degrees> <./CollabProtein.pdf>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 789.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 796.
  [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 789.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 796.
  (./IEEETSNE_Attribute_Submission.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 789.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 789.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 796.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 796.
 Package rerunfilecheck Info: File `IEEETSNE_Attribute_Submission.out' has not c
 hanged.
 (rerunfilecheck)             Checksum: 634251C902B1F99BE7941D893ECF6AFC;1255.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 789.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 796.
  ) 
 Here is how much of TeX's memory you used:
- 8290 strings out of 492995
- 128496 string characters out of 6132704
- 240037 words of memory out of 5000000
- 11669 multiletter control sequences out of 15000+600000
+ 8297 strings out of 492995
+ 128538 string characters out of 6132704
+ 244641 words of memory out of 5000000
+ 11676 multiletter control sequences out of 15000+600000
  43913 words of font info for 91 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 36i,16n,39p,1923b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,16n,39p,1923b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
@@ -617,10 +614,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf
 s/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/u
 rw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on IEEETSNE_Attribute_Submission.pdf (10 pages, 822556 bytes).
+Output written on IEEETSNE_Attribute_Submission.pdf (10 pages, 823435 bytes).
 PDF statistics:
- 547 PDF objects out of 1000 (max. 8388607)
- 452 compressed objects within 5 object streams
+ 567 PDF objects out of 1000 (max. 8388607)
+ 472 compressed objects within 5 object streams
  86 named destinations out of 1000 (max. 500000)
  195 words of extra memory for PDF output out of 10000 (max. 10000000)
 
