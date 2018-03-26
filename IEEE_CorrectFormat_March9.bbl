@@ -88,8 +88,8 @@ J.~Yang, J.~McAuley, and J.~Leskovec, ``Community detection in networks with
   1151--1156.
 
 \bibitem{clauset}
-M.~Newman and A.~Clauset, ``Structure and inference in annotated networks,''
-  \emph{arXiv preprint arXiv:1507.04001}, 2015.
+M.~E. Newman and A.~Clauset, ``Structure and inference in annotated networks,''
+  \emph{Nature Communications}, vol.~7, p. 11863, 2016.
 
 \bibitem{ilouvain}
 D.~Combe, C.~Largeron, M.~G{\'e}ry, and E.~Egyed-Zsigmond, ``I-louvain: An

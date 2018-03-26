@@ -19,43 +19,43 @@ I'm skipping whatever remains of this entry
 Done.
 You've used 32 entries,
             4087 wiz_defined-function locations,
-            1021 strings with 13319 characters,
-and the built_in function-call counts, 24845 in all, are:
-= -- 2137
+            1022 strings with 13318 characters,
+and the built_in function-call counts, 25045 in all, are:
+= -- 2164
 > -- 627
-< -- 176
+< -- 178
 + -- 326
 - -- 123
-* -- 1173
-:= -- 3735
+* -- 1181
+:= -- 3760
 add.period$ -- 69
 call.type$ -- 32
 change.case$ -- 32
 chr.to.int$ -- 324
 cite$ -- 32
-duplicate$ -- 1897
-empty$ -- 1863
+duplicate$ -- 1914
+empty$ -- 1871
 format.name$ -- 153
-if$ -- 5832
+if$ -- 5885
 int.to.chr$ -- 0
 int.to.str$ -- 32
-missing$ -- 328
+missing$ -- 330
 newline$ -- 119
 num.names$ -- 32
 pop$ -- 718
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2002
+skip$ -- 2025
 stack$ -- 0
-substring$ -- 942
-swap$ -- 1552
-text.length$ -- 68
+substring$ -- 952
+swap$ -- 1572
+text.length$ -- 70
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 32
 warning$ -- 0
-while$ -- 101
+while$ -- 102
 width$ -- 34
-write$ -- 346
+write$ -- 348
 (There was 1 error message)
