@@ -1,0 +1,124 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{dan}
+\citation{agha,cancer}
+\citation{socialnetwork}
+\citation{muchacommunity,jurecommunity,shaiCC,fortu1,fortu2}
+\citation{hric,peel2017ground,jureGroundTruth}
+\citation{cesna,clauset,ilouvain,hric,peel2017ground}
+\citation{ilouvain}
+\citation{blondel}
+\@writefile{toc}{\contentsline {subsection}{\numberline {0.1}Related work in attributed networks}{2}{subsection.0.1}}
+\citation{clauset,hric,peel2017ground,cesna}
+\citation{cesna}
+\citation{sbmOrig}
+\citation{clauset}
+\citation{hric}
+\citation{peel2017ground}
+\citation{clauset}
+\citation{clauset}
+\citation{sbmOrig}
+\citation{degreeCorrect}
+\citation{comparative,tiagomcmc,dudin}
+\@writefile{toc}{\contentsline {subsection}{\numberline {0.2}Stochastic Block Models}{4}{subsection.0.2}}
+\citation{EM}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces {\bf  Modeling community membership in terms of attributes and connectivity}. Node-to-community assignments specified by ${\bf  Z}$ are determined in terms of adjacency matrix information, ${\bf  A}$ and attribute matrix information, ${\bf  X}$. ${\bf  A}$ and ${\bf  X}$ are assumed by be generated from a stochastic block model and a mixture of multivariate Gaussian distributions, parameterized by ${\boldsymbol  \theta }$ and ${\boldsymbol  \Psi }$, respectively. }}{5}{figure.1}}
+\newlabel{fig:graphical_model}{{1}{5}{{\bf Modeling community membership in terms of attributes and connectivity}. Node-to-community assignments specified by ${\bf Z}$ are determined in terms of adjacency matrix information, ${\bf A}$ and attribute matrix information, ${\bf X}$. ${\bf A}$ and ${\bf X}$ are assumed by be generated from a stochastic block model and a mixture of multivariate Gaussian distributions, parameterized by ${\boldsymbol \theta }$ and ${\boldsymbol \Psi }$, respectively}{figure.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Model}{5}{section.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Objective}{5}{subsection.1.1}}
+\newlabel{eqn:likelihood_decomposition}{{2}{5}{Objective}{equation.1.2}{}}
+\newlabel{post}{{4}{6}{Objective}{equation.1.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Attribute Likelihood}{6}{subsection.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Adjacency Matrix Likelihood}{6}{subsection.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Inference}{6}{subsection.1.4}}
+\citation{dudin}
+\citation{louvain}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.5}Initialization}{7}{subsection.1.5}}
+\citation{commdeccompare}
+\citation{decelle,taylor}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Synthetic Data Results}{8}{section.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces {\bf  Synthetic Example.} We generated a synthetic network with $N=200$ nodes, $K=4$ communities and an 8-dimensional multivariate Gaussian for each community. {\bf  A.} A visualization of the adjacency matrix for this network where a black dot indicates an edge. We observe that there is an assortative block structure (blocks on the diagonal), but there are also many edges between communities making the true community structure using only connectivity harder to detect. {\bf  B.} We performed PCA on the $N \times p$ attribute array and plotted each of the $N$ nodes in two dimensions. Points are colored by their true community assignments, ${\bf  z}$. Clustering the nodes according to only connectivity, only attributes, and with the attributed SBM, we quantified the partition accuracy with normalized mutual information, yielding $\text  {NMI}({\bf  z},\{{\bf  z}^{\text  {connectivity}}, {\bf  z}^{\text  {attributes}},{\bf  z}^{\text  {attribute sbm}}\})=\{0.65,0.68,0.83\}$.}}{9}{figure.2}}
+\newlabel{Fig2}{{2}{9}{{\bf Synthetic Example.} We generated a synthetic network with $N=200$ nodes, $K=4$ communities and an 8-dimensional multivariate Gaussian for each community. {\bf A.} A visualization of the adjacency matrix for this network where a black dot indicates an edge. We observe that there is an assortative block structure (blocks on the diagonal), but there are also many edges between communities making the true community structure using only connectivity harder to detect. {\bf B.} We performed PCA on the $N \times p$ attribute array and plotted each of the $N$ nodes in two dimensions. Points are colored by their true community assignments, ${\bf z}$. Clustering the nodes according to only connectivity, only attributes, and with the attributed SBM, we quantified the partition accuracy with normalized mutual information, yielding $\text {NMI}({\bf z},\{{\bf z}^{\text {connectivity}}, {\bf z}^{\text {attributes}},{\bf z}^{\text {attribute sbm}}\})=\{0.65,0.68,0.83\}$}{figure.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces {\bf  Detectability Analysis in Synthetic Example.} To understand how attribute information can be combined with connectivity to assign nodes to communities accurately, we generated synthetic networks for within-probabilities of $p_{in}$ between 0.05 and 0.3 with corresponding $p_{out}$ or between-community probabilities such that the mean degree of the network was 20. For each of these synthetic networks, we used the attributes from the analysis in figure 2 to fit the attributed SBM. Here, we plot the correctness of the node-to-community assignment with normalized mutual information using the partition obtained from regular SBM (blue) and the partition under the attributed SBM model fit (pink). For each combination of $p_{in}$ and $p_{out}$, we generated 10 networks and hence the bands around the points denote standard deviation. Incorporating attributes with the attributes stochastic block model improves results, particularly near and below the detectability limit, and appears to smooth out the sharp phase transition. }}{10}{figure.3}}
+\newlabel{Fig3}{{3}{10}{{\bf Detectability Analysis in Synthetic Example.} To understand how attribute information can be combined with connectivity to assign nodes to communities accurately, we generated synthetic networks for within-probabilities of $p_{in}$ between 0.05 and 0.3 with corresponding $p_{out}$ or between-community probabilities such that the mean degree of the network was 20. For each of these synthetic networks, we used the attributes from the analysis in figure 2 to fit the attributed SBM. Here, we plot the correctness of the node-to-community assignment with normalized mutual information using the partition obtained from regular SBM (blue) and the partition under the attributed SBM model fit (pink). For each combination of $p_{in}$ and $p_{out}$, we generated 10 networks and hence the bands around the points denote standard deviation. Incorporating attributes with the attributes stochastic block model improves results, particularly near and below the detectability limit, and appears to smooth out the sharp phase transition}{figure.3}{}}
+\citation{linkPredReview}
+\citation{collabFilterReview}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Using the fitted attributed SBM for link prediction and collaborative filtering}{11}{section.3}}
+\citation{linkComm}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Link Prediction Experiments}{12}{subsection.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Collaborative Filtering Experiments}{12}{subsection.3.2}}
+\citation{collabComm}
+\citation{microbiomedata}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Applications in Biological Networks}{13}{section.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Microbiome Subject Similarity Results}{13}{subsection.4.1}}
+\citation{dudin}
+\citation{bonacci}
+\citation{bonacci}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces {\bf  Microbiome subject similarity network:} A visualization of the 121 node microbiome subject similarity network with nodes colored by the partition using the classic ({\bf  A.}) and attributed ({\bf  B.}) stochastic block model. {\bf  A.} Fitting the classic stochastic block model to the network, 7 communities were identified. {\bf  B.} Fitting the attributed stochastic block model to the network with the attributes being the first 5 principle components of each subject's OTU count vector (metagenomic profile), 6 communities were identified. Incorporating attributes in inferring this partition removed some of the noise in the partition on the network, specifically in the mixed purple community in the left of {\bf  A.}}}{15}{figure.4}}
+\newlabel{Fig4}{{4}{15}{{\bf Microbiome subject similarity network:} A visualization of the 121 node microbiome subject similarity network with nodes colored by the partition using the classic ({\bf A.}) and attributed ({\bf B.}) stochastic block model. {\bf A.} Fitting the classic stochastic block model to the network, 7 communities were identified. {\bf B.} Fitting the attributed stochastic block model to the network with the attributes being the first 5 principle components of each subject's OTU count vector (metagenomic profile), 6 communities were identified. Incorporating attributes in inferring this partition removed some of the noise in the partition on the network, specifically in the mixed purple community in the left of {\bf A.}}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Protein Interaction Network Results}{15}{subsection.4.2}}
+\citation{dudin}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces {\bf  Link Prediction on the microbiome subject similarity network:} The results for link prediction on the microbiome subject similarity network for the attributed SBM, Jaccard, Adamic-Adar and preferential attachment methods. The corresponding AUC values for these methods, respectively are, 0.71, 0.69, 0.69, and 0.62.}}{16}{figure.5}}
+\newlabel{Fig5}{{5}{16}{{\bf Link Prediction on the microbiome subject similarity network:} The results for link prediction on the microbiome subject similarity network for the attributed SBM, Jaccard, Adamic-Adar and preferential attachment methods. The corresponding AUC values for these methods, respectively are, 0.71, 0.69, 0.69, and 0.62}{figure.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces {\bf  Collaborative Filtering Accuracy in Microbiome Subject Similarity Network}: For each of the 121 nodes, we fit a model to the remaining 120 node network and given the node's closest neighbors (based on network connectivity) sought to predict its 5-dimensional attribute vector. The reported error is the relative error $\mathcal  {E}$ between the difference between the true attribute vector (${\bf  x}_{i}$) and its predicted attribute vector (${\mathaccentV {hat}05E{\bf  x}}_{i}$). The mean error in ${\bf  x}_{i}$ is 0.21, as opposed to the neighbor average and weighted neighbor averages, having errors of 0.26 and 0.27, respectively. }}{17}{figure.6}}
+\newlabel{Fig6}{{6}{17}{{\bf Collaborative Filtering Accuracy in Microbiome Subject Similarity Network}: For each of the 121 nodes, we fit a model to the remaining 120 node network and given the node's closest neighbors (based on network connectivity) sought to predict its 5-dimensional attribute vector. The reported error is the relative error $\mathcal {E}$ between the difference between the true attribute vector (${\bf x}_{i}$) and its predicted attribute vector (${\hat {\bf x}}_{i}$). The mean error in ${\bf x}_{i}$ is 0.21, as opposed to the neighbor average and weighted neighbor averages, having errors of 0.26 and 0.27, respectively}{figure.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces {\bf  Protein interaction network.} We visualize the 82 node protein interaction network under the classic stochastic block model {\bf  A.} and the attributed stochastic block model {\bf  B.} In both networks, nodes are colored by their community assignment and the node shape indicates whether the modification status increased (square) or decreased. {\bf  A.} Nodes colored according to the community partition under the stochastic block model. Nodes are assigned to one of five communities. {\bf  B.} Nodes are colored to the community partition under one of nine communities.}}{18}{figure.7}}
+\newlabel{Fig7}{{7}{18}{{\bf Protein interaction network.} We visualize the 82 node protein interaction network under the classic stochastic block model {\bf A.} and the attributed stochastic block model {\bf B.} In both networks, nodes are colored by their community assignment and the node shape indicates whether the modification status increased (square) or decreased. {\bf A.} Nodes colored according to the community partition under the stochastic block model. Nodes are assigned to one of five communities. {\bf B.} Nodes are colored to the community partition under one of nine communities}{figure.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces {\bf  Community entropies in the protein interaction network.} We studied the entropy of the 2 class and 6 class classifications of the nodes in {\bf  A.} and {\bf  B.}, respectively under the classic SBM (black) and attributed SBM (purple) partitions. For ${\bf  A.-B.}$ the horizontal axis denotes the community index for the particular partition. Nodes belonged to 1 of 5 communities under the classic SBM and belong to 1 of 9 communities with the attributed SBM. Incorporating attributes under both classifications succeeds in breaking up a high entropy community (5) from the classic SBM partition to lower entropy communities in the attributed SBM partition. }}{19}{figure.8}}
+\newlabel{entropyFig}{{8}{19}{{\bf Community entropies in the protein interaction network.} We studied the entropy of the 2 class and 6 class classifications of the nodes in {\bf A.} and {\bf B.}, respectively under the classic SBM (black) and attributed SBM (purple) partitions. For ${\bf A.-B.}$ the horizontal axis denotes the community index for the particular partition. Nodes belonged to 1 of 5 communities under the classic SBM and belong to 1 of 9 communities with the attributed SBM. Incorporating attributes under both classifications succeeds in breaking up a high entropy community (5) from the classic SBM partition to lower entropy communities in the attributed SBM partition}{figure.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusions and Future Work}{19}{section.5}}
+\citation{ilouvain}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces {\bf  Link Prediction in the protein interaction network}. Performing link prediction using the attributed SBM, Jaccard, Adamic Adar, and preferential attachment. The corresponding AUC curves for these methods were 0.61, 0.58, 0.58, and 0.51, respectively.}}{20}{figure.9}}
+\newlabel{Fig9}{{9}{20}{{\bf Link Prediction in the protein interaction network}. Performing link prediction using the attributed SBM, Jaccard, Adamic Adar, and preferential attachment. The corresponding AUC curves for these methods were 0.61, 0.58, 0.58, and 0.51, respectively}{figure.9}{}}
+\bibstyle{plain}
+\bibdata{sigproc}
+\bibcite{agha}{1}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces {\bf  Collaborative filtering in the protein interaction network}. For each of the 82 nodes, we fit a model to the remaining 81 node network and given the node's closest neighbors (based on network connectivity) sought to predict its 6-dimensional attribute vector. The reported error is the relative error $\mathcal  {E}$ between the difference between the true attribute vector (${\bf  x}_{i}$) and its predicted attribute vector (${\mathaccentV {hat}05E{\bf  x}}_{i}$). The mean error in ${\bf  x}_{i}$ using the attributed SBM is 0.21, as opposed to the neighbor average error where it is 0.48. }}{21}{figure.10}}
+\newlabel{collabprotein}{{10}{21}{{\bf Collaborative filtering in the protein interaction network}. For each of the 82 nodes, we fit a model to the remaining 81 node network and given the node's closest neighbors (based on network connectivity) sought to predict its 6-dimensional attribute vector. The reported error is the relative error $\mathcal {E}$ between the difference between the true attribute vector (${\bf x}_{i}$) and its predicted attribute vector (${\hat {\bf x}}_{i}$). The mean error in ${\bf x}_{i}$ using the attributed SBM is 0.21, as opposed to the neighbor average error where it is 0.48}{figure.10}{}}
+\bibcite{blondel}{2}
+\bibcite{louvain}{3}
+\bibcite{bonacci}{4}
+\bibcite{ilouvain}{5}
+\bibcite{commdeccompare}{6}
+\bibcite{dudin}{7}
+\bibcite{decelle}{8}
+\bibcite{EM}{9}
+\bibcite{collabComm}{10}
+\bibcite{fortu1}{11}
+\bibcite{fortu2}{12}
+\bibcite{socialnetwork}{13}
+\bibcite{cancer}{14}
+\bibcite{hric}{15}
+\bibcite{degreeCorrect}{16}
+\bibcite{microbiomedata}{17}
+\bibcite{dan}{18}
+\bibcite{jurecommunity}{19}
+\bibcite{clauset}{20}
+\bibcite{peel2017ground}{21}
+\bibcite{tiagomcmc}{22}
+\bibcite{muchacommunity}{23}
+\bibcite{shaiCC}{24}
+\bibcite{collabFilterReview}{25}
+\bibcite{sbmOrig}{26}
+\bibcite{linkComm}{27}
+\bibcite{taylor}{28}
+\bibcite{linkPredReview}{29}
+\bibcite{jureGroundTruth}{30}
+\bibcite{cesna}{31}
+\bibcite{comparative}{32}
