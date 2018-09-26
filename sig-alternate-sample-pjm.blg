@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: sig-alternate-sample-pjm.aux
+The style file: abbrv.bst
+Database file #1: sigproc.bib
+Repeated entry---line 109 of file sigproc.bib
+ : @inproceedings{cesna
+ :                     ,
+I'm skipping whatever remains of this entry
+You've used 29 entries,
+            2118 wiz_defined-function locations,
+            681 strings with 9399 characters,
+and the built_in function-call counts, 11586 in all, are:
+= -- 1113
+> -- 681
+< -- 6
++ -- 272
+- -- 238
+* -- 919
+:= -- 1952
+add.period$ -- 92
+call.type$ -- 29
+change.case$ -- 203
+chr.to.int$ -- 0
+cite$ -- 29
+duplicate$ -- 382
+empty$ -- 797
+format.name$ -- 238
+if$ -- 2370
+int.to.chr$ -- 0
+int.to.str$ -- 29
+missing$ -- 29
+newline$ -- 148
+num.names$ -- 58
+pop$ -- 180
+preamble$ -- 1
+purify$ -- 174
+quote$ -- 0
+skip$ -- 274
+stack$ -- 0
+substring$ -- 712
+swap$ -- 85
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 116
+warning$ -- 0
+while$ -- 100
+width$ -- 31
+write$ -- 322
+(There was 1 error message)
