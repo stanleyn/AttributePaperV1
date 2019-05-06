@@ -9,24 +9,24 @@ Repeated entry---line 109 of file sigproc.bib
 I'm skipping whatever remains of this entry
 You've used 32 entries,
             2118 wiz_defined-function locations,
-            703 strings with 10016 characters,
-and the built_in function-call counts, 12503 in all, are:
-= -- 1209
+            708 strings with 10200 characters,
+and the built_in function-call counts, 12525 in all, are:
+= -- 1214
 > -- 709
 < -- 6
 + -- 283
 - -- 246
-* -- 986
-:= -- 2105
+* -- 988
+:= -- 2107
 add.period$ -- 101
 call.type$ -- 32
 change.case$ -- 216
 chr.to.int$ -- 0
 cite$ -- 32
 duplicate$ -- 416
-empty$ -- 878
+empty$ -- 879
 format.name$ -- 246
-if$ -- 2560
+if$ -- 2564
 int.to.chr$ -- 0
 int.to.str$ -- 32
 missing$ -- 32
@@ -38,14 +38,14 @@ purify$ -- 184
 quote$ -- 0
 skip$ -- 298
 stack$ -- 0
-substring$ -- 795
+substring$ -- 802
 swap$ -- 88
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 128
 warning$ -- 0
-while$ -- 112
+while$ -- 113
 width$ -- 34
 write$ -- 356
 (There was 1 error message)
