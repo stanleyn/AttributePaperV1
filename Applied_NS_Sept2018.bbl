@@ -116,6 +116,11 @@ Jure Leskovec, Kevin~J Lang, and Michael Mahoney.
 \newblock In {\em Proceedings of the 19th international conference on World
   wide web}, pages 631--640. ACM, 2010.
 
+\bibitem{assort}
+Mark~EJ Newman.
+\newblock Mixing patterns in networks.
+\newblock {\em Physical Review E}, 67(2):026126, 2003.
+
 \bibitem{clauset}
 Mark~EJ Newman and Aaron Clauset.
 \newblock Structure and inference in annotated networks.
