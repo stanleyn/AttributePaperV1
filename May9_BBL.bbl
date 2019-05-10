@@ -13,14 +13,19 @@ Vincent~D Blondel, Jean-Loup Guillaume, Renaud Lambiotte, and Etienne Lefebvre.
 \newblock {\em Journal of statistical mechanics: theory and experiment},
   2008(10):P10008, 2008.
 
+
 \bibitem{bonacci}
-Thomas Bonacci, St{\'e}phane Audebert, Luc Camoin, Emilie Baudelet, Ghislain
-  Bidaut, Maxime Garcia, Ini-Isab{\'e}́e Witzel, Neil~D Perkins, Jean-Paul Borg,
+Thomas Bonacci, Stephane Audebert, Luc Camoin, Emilie Baudelet, Ghislain Bidaut, Macime Garcia, Ini-Isabee Witzel,Neil~D Perkins, Jean-Paul Borg,
   Juan-Lucio Iovanna, et~al.
 \newblock Identification of new mechanisms of cellular response to chemotherapy
   by tracking changes in post-translational modifications by ubiquitin and
   ubiquitin-like proteins.
 \newblock {\em Journal of proteome research}, 13(5):2478--2494, 2014.
+
+\bibitem{both}
+Cecile Bothorel, Juan~David Cruz, Matteo Magnani, and Barbora Micenkova.
+\newblock Clustering attributed graphs: models, measures and methods.
+\newblock {\em Network Science}, 3(3):408--444, 2015.
 
 \bibitem{ilouvain}
 David Combe, Christine Largeron, Mathias G{\'e}ry, and El{\H{o}}d
@@ -110,6 +115,11 @@ Jure Leskovec, Kevin~J Lang, and Michael Mahoney.
 \newblock Empirical comparison of algorithms for network community detection.
 \newblock In {\em Proceedings of the 19th international conference on World
   wide web}, pages 631--640. ACM, 2010.
+
+\bibitem{assort}
+Mark~EJ Newman.
+\newblock Mixing patterns in networks.
+\newblock {\em Physical Review E}, 67(2):026126, 2003.
 
 \bibitem{clauset}
 Mark~EJ Newman and Aaron Clauset.

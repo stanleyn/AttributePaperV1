@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  6 MAY 2019 16:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  10 MAY 2019 09:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -443,13 +443,13 @@ File: GraphModel.pdf Graphic file (type pdf)
 Package pdftex.def Info: GraphModel.pdf  used on input line 154.
 (pdftex.def)             Requested size: 233.3713pt x 94.10132pt.
  [6 <./GraphModel.pdf>] [7] [8]
-<SyntheticFig.pdf, id=260, 470.75874pt x 274.02374pt>
+<SyntheticFig.pdf, id=262, 470.75874pt x 274.02374pt>
 File: SyntheticFig.pdf Graphic file (type pdf)
 <use SyntheticFig.pdf>
 Package pdftex.def Info: SyntheticFig.pdf  used on input line 288.
 (pdftex.def)             Requested size: 253.5pt x 147.56085pt.
  [9 <./SyntheticFig.pdf>]
-<DetectExp.pdf, id=308, 433.62pt x 361.35pt>
+<DetectExp.pdf, id=310, 433.62pt x 361.35pt>
 File: DetectExp.pdf Graphic file (type pdf)
 <use DetectExp.pdf>
 Package pdftex.def Info: DetectExp.pdf  used on input line 302.
@@ -464,31 +464,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 321--322
  []
 
 [12] [13] [14]
-<MicrobiomeNets_May6.pdf, id=382, 587.43465pt x 297.91321pt>
+<MicrobiomeNets_May6.pdf, id=384, 587.43465pt x 297.91321pt>
 File: MicrobiomeNets_May6.pdf Graphic file (type pdf)
 <use MicrobiomeNets_May6.pdf>
 Package pdftex.def Info: MicrobiomeNets_May6.pdf  used on input line 361.
 (pdftex.def)             Requested size: 338.0pt x 171.4215pt.
 
-Underfull \vbox (badness 1043) has occurred while \output is active []
 
- [15 <./MicrobiomeNets_May6.pdf>]
-<ROC_Microbiome.pdf, id=427, 407.31653pt x 368.4996pt>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<ROC_Microbiome.pdf, id=386, 407.31653pt x 368.4996pt>
 File: ROC_Microbiome.pdf Graphic file (type pdf)
 <use ROC_Microbiome.pdf>
 Package pdftex.def Info: ROC_Microbiome.pdf  used on input line 372.
 (pdftex.def)             Requested size: 169.0pt x 152.89073pt.
-<CollabFilterMicro.pdf, id=429, 433.62pt x 433.62pt>
+<CollabFilterMicro.pdf, id=388, 433.62pt x 433.62pt>
 File: CollabFilterMicro.pdf Graphic file (type pdf)
 <use CollabFilterMicro.pdf>
 Package pdftex.def Info: CollabFilterMicro.pdf  used on input line 382.
 (pdftex.def)             Requested size: 169.0pt x 168.99864pt.
 
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16 <./ROC_Microbiome.pdf, page is rotated 90 degrees>]
-<ProteinNet_Dec12.pdf, id=460, 740.7675pt x 342.27875pt>
+[15]
+<ProteinNet_Dec12.pdf, id=398, 740.7675pt x 342.27875pt>
 File: ProteinNet_Dec12.pdf Graphic file (type pdf)
 <use ProteinNet_Dec12.pdf>
 Package pdftex.def Info: ProteinNet_Dec12.pdf  used on input line 393.
@@ -497,18 +496,23 @@ Package pdftex.def Info: ProteinNet_Dec12.pdf  used on input line 393.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<EntropyCalc_6Classleft_2classright.pdf, id=467, 578.16pt x 361.35pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16 <./MicrobiomeNets_May6.pdf>]
+<EntropyCalc_6Classleft_2classright.pdf, id=447, 578.16pt x 361.35pt>
 File: EntropyCalc_6Classleft_2classright.pdf Graphic file (type pdf)
 <use EntropyCalc_6Classleft_2classright.pdf>
 Package pdftex.def Info: EntropyCalc_6Classleft_2classright.pdf  used on input 
 line 407.
 (pdftex.def)             Requested size: 253.5pt x 158.43759pt.
-[17 <./CollabFilterMicro.pdf>]
+ [17 <./ROC_Microbiome.pdf, page is rotated 90 degrees> <./CollabFilterMicro.pd
+f>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [18 <./ProteinNet_Dec12.pdf>]
-<ROC_Protein.pdf, id=510, 410.7045pt x 373.6141pt>
+<ROC_Protein.pdf, id=512, 410.7045pt x 373.6141pt>
 File: ROC_Protein.pdf Graphic file (type pdf)
 <use ROC_Protein.pdf>
 Package pdftex.def Info: ROC_Protein.pdf  used on input line 426.
@@ -517,7 +521,7 @@ Package pdftex.def Info: ROC_Protein.pdf  used on input line 426.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<CollabProtein.pdf, id=513, 433.62pt x 433.62pt>
+<CollabProtein.pdf, id=515, 433.62pt x 433.62pt>
 File: CollabProtein.pdf Graphic file (type pdf)
 <use CollabProtein.pdf>
 Package pdftex.def Info: CollabProtein.pdf  used on input line 436.
@@ -530,39 +534,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19 <./EntropyCalc_6Classleft_2classright.pdf>] [20 <./ROC_Protein.pdf, page i
 s rotated 90 degrees> <./CollabProtein.pdf>]
-<assort_fig.pdf, id=585, 361.35pt x 361.35pt>
+<assort_fig.pdf, id=587, 361.35pt x 361.35pt>
 File: assort_fig.pdf Graphic file (type pdf)
 <use assort_fig.pdf>
 Package pdftex.def Info: assort_fig.pdf  used on input line 448.
 (pdftex.def)             Requested size: 169.0pt x 169.00194pt.
- [21 <./assort_fig.pdf>] [22]
-(./Applied_NS_Sept2018.bbl
-
-./Applied_NS_Sept2018.bbl:17: Package inputenc Error: Unicode character ́ (U+3
-01)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 Thomas Bonacci, Sté
-                          phane Audebert, Luc Camoin, Emilie Baudelet, Ghislain
-
-? 
-
-./Applied_NS_Sept2018.bbl:18: Package inputenc Error: Unicode character ́ (U+3
-01)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18   Bidaut, Maxime Garcia, Ini-Isabé
-                                         e Witzel, Neil~D Perkins, Jean-Paul...
-
-? 
+ [21 <./assort_fig.pdf>] [22] (./May9_BBL.bbl
 [23] [24])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 518.
  [25]
@@ -580,12 +557,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 518.
  ) 
 Here is how much of TeX's memory you used:
  6527 strings out of 492649
- 96185 string characters out of 6129622
- 195034 words of memory out of 5000000
- 10236 multiletter control sequences out of 15000+600000
+ 96166 string characters out of 6129622
+ 196043 words of memory out of 5000000
+ 10235 multiletter control sequences out of 15000+600000
  12439 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,16n,28p,2030b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,16n,28p,2070b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pf
 b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
@@ -607,10 +584,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2018/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Applied_NS_Sept2018.pdf (25 pages, 902286 bytes).
+Output written on Applied_NS_Sept2018.pdf (25 pages, 901909 bytes).
 PDF statistics:
- 721 PDF objects out of 1000 (max. 8388607)
- 544 compressed objects within 6 object streams
+ 723 PDF objects out of 1000 (max. 8388607)
+ 545 compressed objects within 6 object streams
  113 named destinations out of 1000 (max. 500000)
  120 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,51 +1,47 @@
 This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Applied_NS_Sept2018.aux
-The style file: plain.bst
-Database file #1: sigproc.bib
-Repeated entry---line 109 of file sigproc.bib
- : @inproceedings{cesna
- :                     ,
-I'm skipping whatever remains of this entry
+I found no \bibdata command---while reading file Applied_NS_Sept2018.aux
+I found no \bibstyle command---while reading file Applied_NS_Sept2018.aux
 You've used 33 entries,
-            2118 wiz_defined-function locations,
-            714 strings with 10260 characters,
-and the built_in function-call counts, 12800 in all, are:
-= -- 1241
-> -- 716
-< -- 6
-+ -- 286
-- -- 248
-* -- 1008
-:= -- 2154
-add.period$ -- 104
-call.type$ -- 33
-change.case$ -- 220
+            0 wiz_defined-function locations,
+            125 strings with 891 characters,
+and the built_in function-call counts, 0 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 0
+:= -- 0
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 33
-duplicate$ -- 427
-empty$ -- 905
-format.name$ -- 248
-if$ -- 2621
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 0
+format.name$ -- 0
+if$ -- 0
 int.to.chr$ -- 0
-int.to.str$ -- 33
-missing$ -- 33
-newline$ -- 168
-num.names$ -- 66
-pop$ -- 187
-preamble$ -- 1
-purify$ -- 187
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 0
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 0
+purify$ -- 0
 quote$ -- 0
-skip$ -- 305
+skip$ -- 0
 stack$ -- 0
-substring$ -- 825
-swap$ -- 89
-text.length$ -- 6
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 132
+type$ -- 0
 warning$ -- 0
-while$ -- 116
-width$ -- 35
-write$ -- 367
-(There was 1 error message)
+while$ -- 0
+width$ -- 0
+write$ -- 0
+(There were 2 error messages)
