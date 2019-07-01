@@ -1,0 +1,203 @@
+\begin{thebibliography}{10}
+
+\bibitem{agha}
+Nima Aghaeepour, Edward~A Ganio, David Mcilwain, Amy~S Tsai, Martha Tingle,
+  Sofie Van~Gassen, Dyani~K Gaudilliere, Quentin Baca, Leslie McNeil, Robin
+  Okada, et~al.
+\newblock An immune clock of human pregnancy.
+\newblock {\em Science immunology}, 2(15):eaan2946, 2017.
+
+\bibitem{EMIntro}
+Jeff~A Bilmes et~al.
+\newblock A gentle tutorial of the em algorithm and its application to
+  parameter estimation for gaussian mixture and hidden markov models.
+\newblock {\em International Computer Science Institute}, 4(510):126, 1998.
+
+\bibitem{blondel}
+Vincent~D Blondel, Jean-Loup Guillaume, Renaud Lambiotte, and Etienne Lefebvre.
+\newblock Fast unfolding of communities in large networks.
+\newblock {\em Journal of statistical mechanics: theory and experiment},
+  2008(10):P10008, 2008.
+
+\bibitem{bonacci}
+Thomas Bonacci, Stephane Audebert, Luc Camoin, Emilie Baudelet, Ghislain Bidaut, Macime Garcia, Ini-Isabee Witzel,Neil~D Perkins, Jean-Paul Borg,
+  Juan-Lucio Iovanna, et~al.
+\newblock Identification of new mechanisms of cellular response to chemotherapy
+  by tracking changes in post-translational modifications by ubiquitin and
+  ubiquitin-like proteins.
+\newblock {\em Journal of proteome research}, 13(5):2478--2494, 2014.
+
+\bibitem{both}
+Cecile Bothorel, Juan~David Cruz, Matteo Magnani, and Barbora Micenkova.
+\newblock Clustering attributed graphs: models, measures and methods.
+\newblock {\em Network Science}, 3(3):408--444, 2015.
+
+\bibitem{ilouvain}
+David Combe, Christine Largeron, Mathias G{\'e}ry, and El{\H{o}}d
+  Egyed-Zsigmond.
+\newblock I-louvain: An attributed graph clustering method.
+\newblock In {\em Advances in Intelligent Data Analysis XIV}, pages 181--192.
+  Springer, 2015.
+
+\bibitem{commdeccompare}
+Leon Danon, Albert Diaz-Guilera, Jordi Duch, and Alex Arenas.
+\newblock Comparing community structure identification.
+\newblock {\em Journal of Statistical Mechanics: Theory and Experiment},
+  2005(09):P09008, 2005.
+
+\bibitem{dudin}
+J-J Daudin, Franck Picard, and St{\'e}phane Robin.
+\newblock A mixture model for random graphs.
+\newblock {\em Statistics and computing}, 18(2):173--183, 2008.
+
+\bibitem{decelle}
+Aurelien Decelle, Florent Krzakala, Cristopher Moore, and Lenka Zdeborov{\'a}.
+\newblock Inference and phase transitions in the detection of modules in sparse
+  networks.
+\newblock {\em Physical Review Letters}, 107(6):065701, 2011.
+
+\bibitem{EM}
+Arthur~P Dempster, Nan~M Laird, and Donald~B Rubin.
+\newblock Maximum likelihood from incomplete data via the em algorithm.
+\newblock {\em Journal of the royal statistical society. Series B
+  (methodological)}, pages 1--38, 1977.
+
+\bibitem{collabComm}
+Wei Deng, Rajvardhan Patil, Lotfollah Najjar, Yong Shi, and Zhengxin Chen.
+\newblock Incorporating community detection and clustering techniques into
+  collaborative filtering model.
+\newblock {\em Procedia Computer Science}, 31:66--74, 2014.
+
+\bibitem{fortu1}
+Santo Fortunato.
+\newblock Community detection in graphs.
+\newblock {\em Physics reports}, 486(3-5):75--174, 2010.
+
+\bibitem{fortu2}
+Santo Fortunato and Darko Hric.
+\newblock Community detection in networks: A user guide.
+\newblock {\em Physics Reports}, 659:1--44, 2016.
+
+\bibitem{socialnetwork}
+Derek Greene and P{\'a}draig Cunningham.
+\newblock Producing a unified graph representation from multiple social network
+  views.
+\newblock In {\em Proceedings of the 5th Annual ACM Web Science Conference},
+  pages 118--121. ACM, 2013.
+
+\bibitem{cancer}
+Justin Guinney, Rodrigo Dienstmann, Xin Wang, Aur{\'e}lien de~Reyni{\`e}s,
+  Andreas Schlicker, Charlotte Soneson, Laetitia Marisa, Paul Roepman, Gift
+  Nyamundanda, Paolo Angelino, et~al.
+\newblock The consensus molecular subtypes of colorectal cancer.
+\newblock {\em Nature medicine}, 2015.
+
+\bibitem{hric}
+Darko Hric, Tiago~P Peixoto, and Santo Fortunato.
+\newblock Network structure, metadata, and the prediction of missing nodes and
+  annotations.
+\newblock {\em Physical Review X}, 6(3):031038, 2016.
+
+\bibitem{degreeCorrect}
+Brian Karrer and Mark~EJ Newman.
+\newblock Stochastic blockmodels and community structure in networks.
+\newblock {\em Physical Review E}, 83(1):016107, 2011.
+
+\bibitem{microbiomedata}
+Leo Lahti, Jarkko Saloj{\"a}rvi, Anne Salonen, Marten Scheffer, and Willem~M
+  De~Vos.
+\newblock Tipping elements in the human intestinal ecosystem.
+\newblock {\em Nature communications}, 5, 2014.
+
+\bibitem{dan}
+Daniel~B Larremore, Aaron Clauset, and Caroline~O Buckee.
+\newblock A network approach to analyzing highly recombinant malaria parasite
+  genes.
+\newblock {\em PLoS Comput Biol}, 9(10):e1003268, 2013.
+
+\bibitem{jurecommunity}
+Jure Leskovec, Kevin~J Lang, and Michael Mahoney.
+\newblock Empirical comparison of algorithms for network community detection.
+\newblock In {\em Proceedings of the 19th international conference on World
+  wide web}, pages 631--640. ACM, 2010.
+
+\bibitem{assort}
+Mark~EJ Newman.
+\newblock Mixing patterns in networks.
+\newblock {\em Physical Review E}, 67(2):026126, 2003.
+
+\bibitem{clauset}
+Mark~EJ Newman and Aaron Clauset.
+\newblock Structure and inference in annotated networks.
+\newblock {\em Nature Communications}, 7:11863, 2016.
+
+\bibitem{peel2017ground}
+Leto Peel, Daniel~B Larremore, and Aaron Clauset.
+\newblock The ground truth about metadata and community detection in networks.
+\newblock {\em Science Advances}, 3(5):e1602548, 2017.
+
+\bibitem{tiagomcmc}
+Tiago~P Peixoto.
+\newblock Efficient monte carlo and greedy heuristic for the inference of
+  stochastic block models.
+\newblock {\em Physical Review E}, 89(1):012804, 2014.
+
+\bibitem{muchacommunity}
+Mason~A Porter, Jukka-Pekka Onnela, and Peter~J Mucha.
+\newblock Communities in networks.
+\newblock {\em Notices of the AMS}, 56(9):1082--1097, 2009.
+
+\bibitem{shaiCC}
+Saray Shai, Natalie Stanley, Clara Granell, Dane Taylor, and Peter~J Mucha.
+\newblock Case studies in network community detection.
+\newblock {\em arXiv preprint arXiv:1705.02305}, 2017.
+
+\bibitem{collabFilterReview}
+Yue Shi, Martha Larson, and Alan Hanjalic.
+\newblock Collaborative filtering beyond the user-item matrix: A survey of the
+  state of the art and future challenges.
+\newblock {\em ACM Computing Surveys (CSUR)}, 47(1):3, 2014.
+
+\bibitem{sbmOrig}
+Tom~AB Snijders and Krzysztof Nowicki.
+\newblock Estimation and prediction for stochastic blockmodels for graphs with
+  latent block structure.
+\newblock {\em Journal of classification}, 14(1):75--100, 1997.
+
+\bibitem{linkComm}
+Sucheta Soundarajan and John Hopcroft.
+\newblock Using community information to improve the precision of link
+  prediction methods.
+\newblock In {\em Proceedings of the 21st International Conference on World
+  Wide Web}, pages 607--608. ACM, 2012.
+
+\bibitem{taylor}
+Dane Taylor, Saray Shai, Natalie Stanley, and Peter~J Mucha.
+\newblock Enhanced detectability of community structure in multilayer networks
+  through layer aggregation.
+\newblock {\em Physical review letters}, 116(22):228301, 2016.
+
+\bibitem{linkPredReview}
+Peng Wang, BaoWen Xu, YuRong Wu, and XiaoYu Zhou.
+\newblock Link prediction in social networks: the state-of-the-art.
+\newblock {\em arXiv preprint arXiv:1411.5118}, 2014.
+
+\bibitem{jureGroundTruth}
+Jaewon Yang and Jure Leskovec.
+\newblock Defining and evaluating network communities based on ground-truth.
+\newblock {\em Knowledge and Information Systems}, 42(1):181--213, 2015.
+
+\bibitem{cesna}
+Jaewon Yang, Julian McAuley, and Jure Leskovec.
+\newblock Community detection in networks with node attributes.
+\newblock In {\em Data mining (ICDM), 2013 ieee 13th international conference
+  on}, pages 1151--1156. IEEE, 2013.
+
+\bibitem{comparative}
+Pan Zhang, Florent Krzakala, J{\"o}rg Reichardt, and Lenka Zdeborov{\'a}.
+\newblock Comparative study for inference of hidden classes in stochastic block
+  models.
+\newblock {\em Journal of Statistical Mechanics: Theory and Experiment},
+  2012(12):P12021, 2012.
+
+\end{thebibliography}
