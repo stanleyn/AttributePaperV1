@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 JUL 2019 11:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 JUL 2019 14:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -490,41 +490,60 @@ File: CollabSBM_Micro.pdf Graphic file (type pdf)
 Package pdftex.def Info: CollabSBM_Micro.pdf  used on input line 387.
 (pdftex.def)             Requested size: 169.0pt x 126.74896pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17 <./CollabSBM_Micro.pdf>]
-<ProteinNet_Dec12.pdf, id=482, 740.7675pt x 342.27875pt>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<ProteinNet_Dec12.pdf, id=472, 740.7675pt x 342.27875pt>
 File: ProteinNet_Dec12.pdf Graphic file (type pdf)
 <use ProteinNet_Dec12.pdf>
 Package pdftex.def Info: ProteinNet_Dec12.pdf  used on input line 398.
 (pdftex.def)             Requested size: 338.0pt x 156.17577pt.
- [18 <./ProteinNet_Dec12.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./CollabSBM_Micro.pdf> <./ProteinNet_Dec12.pdf>]
 <EntropyCalc_6Classleft_2classright.pdf, id=519, 578.16pt x 361.35pt>
 File: EntropyCalc_6Classleft_2classright.pdf Graphic file (type pdf)
 <use EntropyCalc_6Classleft_2classright.pdf>
 Package pdftex.def Info: EntropyCalc_6Classleft_2classright.pdf  used on input 
 line 412.
 (pdftex.def)             Requested size: 253.5pt x 158.43759pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [19 <./EntropyCalc_6Classleft_2classright.pdf>]
 <ROC_Protein.pdf, id=558, 404.11818pt x 362.44118pt>
 File: ROC_Protein.pdf Graphic file (type pdf)
 <use ROC_Protein.pdf>
 Package pdftex.def Info: ROC_Protein.pdf  used on input line 431.
 (pdftex.def)             Requested size: 169.0pt x 151.57166pt.
- [20 <./ROC_Protein.pdf, page is rotated 90 degrees>]
-<CollabSBM_Protein.pdf, id=589, 289.08pt x 216.81pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<CollabSBM_Protein.pdf, id=562, 289.08pt x 216.81pt>
 File: CollabSBM_Protein.pdf Graphic file (type pdf)
 <use CollabSBM_Protein.pdf>
 Package pdftex.def Info: CollabSBM_Protein.pdf  used on input line 441.
 (pdftex.def)             Requested size: 169.0pt x 126.74896pt.
- [21 <./CollabSBM_Protein.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20] [21 <./ROC_Protein.pdf, page is rotated 90 degrees> <./CollabSBM_Protein.p
+df>]
 <assort_fig.pdf, id=605, 361.35pt x 361.35pt>
 File: assort_fig.pdf Graphic file (type pdf)
 <use assort_fig.pdf>
 Package pdftex.def Info: assort_fig.pdf  used on input line 453.
 (pdftex.def)             Requested size: 169.0pt x 169.00194pt.
- [22 <./assort_fig.pdf>] [23] (./June30_bbl.bbl [24]
-[25])
+ [22 <./assort_fig.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+(./June30_bbl.bbl [24] [25])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 524.
  [26]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 524.
@@ -533,6 +552,10 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 524.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 524.
 Package rerunfilecheck Info: File `Applied_NS_Sept2018.out' has not changed.
 (rerunfilecheck)             Checksum: B88A0260704EF9FAAEDB9526CF4E880D;493.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 524.
  ) 
 Here is how much of TeX's memory you used:
@@ -542,7 +565,7 @@ Here is how much of TeX's memory you used:
  10237 multiletter control sequences out of 15000+600000
  12439 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,16n,28p,2070b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,16n,28p,2070b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pf
 b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
@@ -564,7 +587,7 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2018/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Applied_NS_Sept2018.pdf (26 pages, 1040133 bytes).
+Output written on Applied_NS_Sept2018.pdf (26 pages, 1040077 bytes).
 PDF statistics:
  742 PDF objects out of 1000 (max. 8388607)
  559 compressed objects within 6 object streams
